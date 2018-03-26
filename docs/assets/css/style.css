@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+.doom-image img {
+	max-width: 90%;
+	max-height:90%;
+}
+a {
+    font-family: 'Press Start 2P', cursive;
+}
+
+/*****************************************************
+*                   General styles
+*****************************************************/
+
+
+.navbar-brand a {
+    font-family: 'Press Start 2P', cursive!important;
+}
+
+
+
+.nav-link a:hover
+{
+    color:#778492;
+}
+.center {
+    text-align: center;
+}
+.center img{
+    text-align: center!important;
+}
+
+.padding{
+    padding: 15px;
+}
+
+.video{
+    padding: 0px;
+}
+.red{
+    background-color: red;
+    height: 150px;
+}
+.blue{
+    background-color:blue;
+    height: 150px;
+}
+h1 {
+    font-family: 'Press Start 2P', cursive!important;
+    color:white;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive!important;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+li {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+li a{
+   
+    font-family: 'Open Sans', sans-serif;
+}
+/*****************************************************
+*                   Header section
+*****************************************************/
+/* Navbar */
+.navbar {
+    background: none !important;
+
+}
+.navbar * {
+    font-family: 'Press Start 2P', cursive!important;
+    font-size: 0.9em;
+    color:white!important;
+}
+
+
+.header-section {
+    background: url('../../assets/img/background2.jpg') no-repeat top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.center{
+    text-align: center!important;
+}
+
+
+
+
+
+.background-video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    z-index: -99;
+
+    /*width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: #000;*/
+}
+.above-background-video {
+    z-index: 2;
+    text-align: center;
+    filter: blur(0px);
+}
+
+
+
+
+.about {
+    position: absolute;
+    height: 100vh;
+    top: 90%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.catchphrase h1, p{
+    color: white;
+}
+
+.logo {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*****************************************************
+*                   How it works section
+*****************************************************/
+.hiw-section{
+    background-color:rgb(39,40,34);
+    padding: 0!important;
+}
+.hiw-section h2{
+    color:white;
+}
+.hiw-section h3{
+    color:white;
+}
+
+.hiw-section p{
+    color:white;
+}
+.ressources * {
+    font-family: 'Open Sans', sans-serif;
+}
+/*****************************************************
+*                   Join section
+*****************************************************/
+.join-section p{
+    color:black;
+}
+/********************************
+Social icons
+*********************************/
+.social li {
+    display: inline;
+}
+.socialBig li {
+    display: inline;
+}
+.social-facebook a {
+    background-color: #3b5998;
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+}
+
+.social-twitter a {
+    background-color: #1da1f2;
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+}
+.social-angelList a {
+    background-color: #34bf49;
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+}
+.social-productHunt a {
+    background-color: #da552f;
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+}
+
+.social-stackoverflow a {
+    background-color: #fe7a15;
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+}
+
+.social-stackoverflow a {
+    background-color: #fe7a15;
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+}
+
+.social-email a {
+    background-color: #34bf49;
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+}
+
+
+.social-github a {
+    background-color: #333;
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+}
+
+.social-quora a {
+    background-color: #a82400;
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+}
+
+.social-twitchBig a {
+    background-color: #6441a5;
+    width: 108px;
+    height: 108px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+}
+
+.social-youtubeBig a {
+    background-color: #ff0000;
+    width: 108px;
+    height: 108px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+}
+
+.social-twitch a {
+    background-color: #6441a5;
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+}
+
+.social-youtube a {
+    background-color: #ff0000;
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+}
+.social a:hover {
+    filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+}
+
+.social a .fa {
+    font-size: 25px;
+    padding-top: 14px;
+}
+
+.socialBig a .fa {
+    font-size: 50px;
+    padding-top: 28px;
+}
+.socialBig a:hover {
+   filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+}
+
+
+
+/*****************************************************
+*                   Footer
+*****************************************************/
+
+footer p{
+    
+    font-family: 'Press Start 2P', cursive!important;
+    font-size: 0.9em;
+}
+
+
+footer{
+    background-color:rgb(39,40,34);
+}
+
+a.footer{
+    color: white!important;
+}
+
+
+
+a.btn.btn-success, button.btn.btn-success, input.btn.btn-success {
+    background-color: #00ff00;
+    border-color: #00ff00;
+    color: #000000;
+    font-family: 'Press Start 2P', cursive!important;
+}
+
+a.btn.btn-info, button.btn.btn-info, input.btn.btn-info {
+
+    background-color: #00ffff;
+    border-color: #00ffff;
+    color: #000000;
+    font-family: 'Press Start 2P', cursive!important;
+
+}
+
