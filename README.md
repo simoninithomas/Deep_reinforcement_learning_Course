@@ -8,8 +8,8 @@
 
 ### <a href="https://simoninithomas.github.io/Deep_reinforcement_learning_Course/">Syllabus</a><br>
 ### Part 1: Introduction to Reinforcement Learning [ARTICLE](https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419) <br>
-### Part 2: Q-learning with FrozenLake [ARTICLE THIS WEEK] // [FROZENLAKE IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Q%20Learning%20with%20FrozenLake.ipynb)<br>
-### Part 3: Deep Q-learning with Doom [ARTICLE (APRIL)] //  [DOOM IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/DQN%20Doom/Deep%20Q%20learning%20with%20Doom.ipynb)<br>
+### Part 2: Q-learning with FrozenLake [ARTICLE](https://medium.freecodecamp.org/diving-deeper-into-reinforcement-learning-with-q-learning-c18d0db58efe) // [FROZENLAKE IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Q%20Learning%20with%20FrozenLake.ipynb)<br>
+### Part 3: Deep Q-learning with Doom [ARTICLE](https://medium.freecodecamp.org/an-introduction-to-deep-q-learning-lets-play-doom-54d02d8017d8)  //  [DOOM IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/DQN%20Doom/Deep%20Q%20learning%20with%20Doom.ipynb)<br>
 ### Part 3+: Improvments in Deep Q-Learning [ARTICLE (APRIL)] //  [DOOM IMPLEMENTATION (04/12/2018)] <br>
 ### Part 4: Policy Gradients with Doom [ARTICLE (APRIL)] //  [DOOM IMPLEMENTATION (04/23/2018)] <br>
 ### Part 5: Part 5: Asynchronous Advantage Actor Critic [ARTICLE (APRIL)] //  [SUPER MARIO BROS IMPLEMENTATION (04/30/2018)] <br>
