@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116674445-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116674445-1');
+</script>
+
+<!-- Hotjar Tracking Code for https://simoninithomas.github.io/deep_reinforcement_learning_course/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:833802,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Deep Reinforcement Learning Course</title>
+
+    <meta name="description" content="Deep Reinforcement Learning Course is a free series of blog posts about Deep Reinforcement Learning, where we'll learn the main algorithms, and how to implement them in Tensorflow.">
+    <meta name="author" content="SIMONINI Thomas">
+
+    <!-- CSS -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+<link href="assets/font awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Mailchimp -->
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"d58d585621531bd51fd457665","lid":"4519ef8bed"}) })</script>
+
+</head>
+<body>
+
+<!-- *********************************************************
+*                       Header section
+*********************************************************** -->
+<section class="container-fluid header-section">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Deep Reinforcement Learning Course</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#syllabus" target="_self">Syllabus</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#hth" target="_self">How to help?</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#kit" target="_self">Keep in touch</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://www.simoninithomas.com">About me</a>
+          </li>
+      </ul>
+  </div>
+</nav>
+
+
+<div class="above-background-video">
+    <br>
+    <h1> A free course in Deep Reinforcement Learning 🕹️</h1>
+    <p> Deep Reinforcement Learning Course is a free series of blog posts about Deep Reinforcement Learning, <b> where we'll learn the main algorithms, and how to implement them in Tensorflow.</b></p>
+    <p> The goal of these articles is to explain step by step from the big picture and the mathematical details behind it, to the implementation with Tensorflow </p>
+    <p> Some of the environments you will work with during this course: </p>
+    
+    <div class="row">
+        
+        <div class="col-lg-2">
+        </div>
+        	<div class="doom-image">
+          	<img  src="assets/img/preview.jpg" alt="Preview"/>
+ 
+    
+
+    <br>
+    <br>
+
+
+     <a class="nav-link" href="#syllabus" target="_self">
+            <button type="button" class="btn btn-success">See the syllabus and read the articles
+            </button>
+        </a>
+      </div>
+       
+    
+
+
+
+</div>
+<br/>
+<br/>
+
+
+
+</section>
+
+
+<!-- *********************************************************
+*                      Part 1
+*********************************************************** -->
+<section class="container-fluid center join-section" id="syllabus">
+    <br>
+    <h2>Part 1: What is Deep Reinforcement Learning?</h2>
+    
+    <a href="https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419">
+            <button type="button" class="btn btn-success">Read the article
+            </button>
+        </a>
+
+    <br>
+    <br>
+    <h3> 👨‍💻 No project to do in this article </h3>
+    
+    <br>
+    <h3>📜 </h3>
+    
+    <p>  In this article you'll learn <b>all the basics elements you need to master before diving on the Deep Reinforcement Learning algorithms.</b>
+      <ul>
+        <li>What’s Deep Reinforcement Learning and what is its process?</li>
+        <li>Why rewards is the central idea in RL?</li>
+        <li>What’s the 3 approaches of Reinforcement Learning?</li>
+      </ul>
+    </p>
+    <br>
+    <h3> 📚 More ressources:  </h3>
+    <ul class="ressources">
+      <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 1: Introduction</a> </li>
+    </ul>
+</section>
+
+<!-- *********************************************************
+*                       Part 2
+*********************************************************** -->
+<section class="container-fluid hiw-section center wow fadeInLeft" 
+style="padding-left: 0; padding-right:0" id="hiw">
+<br>
+<h2>Part 2: Q-Learning</h2>
+<a href="https://medium.freecodecamp.org/diving-deeper-into-reinforcement-learning-with-q-learning-c18d0db58efe">
+            <button type="button" class="btn btn-success">Read the article
+            </button>
+        </a>
+
+        <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Q%20Learning%20with%20FrozenLake.ipynb">
+            <button type="button" class="btn btn-success">👨‍💻 Read the notebook
+            </button>
+        </a>
+<h3> 📅 April </h3>
+<br>
+    <br>
+    <h3> 👨‍💻 Create an Agent that learns to play FrozenLake </h3>
+    <img src="assets/img/projects/projectw2.gif" alt="FrozenLake"/>
+    <br>
+    <br>
+    <h3>📜 </h3>
+    
+    <p>  In this article you'll learn the <b>Q-learning algorithm and how to implement it with Numpy.</b> </p>
+    <br>
+    <h3> 📚 More ressources:  </h3>
+    <ul>
+      <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 6 (Part 6.5)</a> </li>
+    </ul>
+    <br>
+</section>
+
+
+<!-- *********************************************************
+*                      Part 3
+*********************************************************** -->
+<section class="container-fluid center join-section" data-wow-duration="2s" id="videos">
+    <br>
+    <h2>Part 3: Deep Q-Learning</h2>
+<a href="https://medium.freecodecamp.org/an-introduction-to-deep-q-learning-lets-play-doom-54d02d8017d8">
+            <button type="button" class="btn btn-success">Read the article
+            </button>
+        </a>
+            <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/DQN%20Doom/Deep%20Q%20learning%20with%20Doom.ipynb">
+            <button type="button" class="btn btn-success">👨‍💻 Read the notebook
+            </button>
+        </a>
+<h3> 📅 April </h3>
+<br>
+<br>
+    <h3> 👨‍💻 An Agent that plays Doom and kill enemies </h3>
+    <img src="assets/img/projects/doom_reduced.gif" alt="Doom"/>
+    <br>
+    <br>
+    <h3>📜 </h3>
+    
+    <p>  In this article you'll learn about Deep Q Learning and how to implement it in Tensorflow </p>
+     <br>
+    <!--<h3> 📚 More ressources:  </h3>-->
+    <!--<ul>
+      <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 1: Introduction</a> </li>
+    </ul>-->
+        <br>
+</section>
+
+<!-- *********************************************************
+*                      Part 3+
+*********************************************************** -->
+<section class="container-fluid center hiw-section" data-wow-duration="2s" id="videos">
+    <br>
+    <h2>Part 3+: Improvments in Deep Q Learning</h2>
+    <!--<a href="#">
+            <button type="button" class="btn btn-success">Read the article
+            </button>
+        </a>-->
+<h3> 📅 April </h3>
+<br>
+<br>
+    <h3> 👨‍💻 Not defined yet </h3>
+  <br>
+    <br>
+    <h3>📜 </h3>
+    
+    <p>  In this article you'll learn about the <b>latests improvments in Deep Q Learning and how to implement them in Tensorflow.</b> </p>
+      <br>
+    <!--<h3> 📚 More ressources:  </h3>-->
+    <!--<ul>
+      <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 1: Introduction</a> </li>
+    </ul>-->
+        <br>
+</section>
+
+
+<!-- *********************************************************
+*                       Part 4
+*********************************************************** -->
+<section class="container-fluid join-section center wow fadeInLeft" 
+style="padding-left: 0; padding-right:0" id="hiw">
+<br>
+<h2>Part 4: Policy Gradients</h2>
+<!--<a href="#">
+            <button type="button" class="btn btn-success">Read the article
+            </button>
+        </a>-->
+<h3> 📅 April </h3>
+<br>
+<br>
+    <h3> 👨‍💻 An Agent that learns to survive in an hostile environment in Doom </h3>
+    <br>
+
+    <img src="assets/img/projects/projectw4_reduced.gif" alt="Doom Health"/>
+        <br>
+            <br>
+    <h3>📜 </h3>
+
+    <p>  In this article you'll learn about Policy gradients and how to implement it in Tensorflow. </p>
+    <!--<br>
+      In this first article, you’ll learn:
+      <ul>
+        <li>What’s Deep Reinforcement Learning and what is its process?</li>
+        <li>What’s the 3 approaches of Reinforcement Learning?</li>
+        <li>Why rewards is the central idea in RL?</li>
+      </ul>
+    </p>-->
+
+    <!--<h3> 📚 More ressources:  </h3>-->
+    <!--<ul>
+      <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 1: Introduction</a> </li>
+    </ul>-->
+        <br>
+</section>
+
+
+
+<!-- *********************************************************
+*                      Part 5
+*********************************************************** -->
+<section class="container-fluid center hiw-section" data-wow-duration="2s" id="videos">
+    <br>
+    <h2>Part 5:  Asynchronous Advantage Actor Critic</h2>
+    <!--<a href="#">
+            <button type="button" class="btn btn-success">Read the article
+            </button>
+        </a>-->
+<h3> 📅 April </h3>
+<br>
+<br>
+    <h3> 👨‍💻 An Agent that plays Super Mario Bros </h3>
+    <br>
+    <img src="assets/img/projects/mario_reduced.gif" alt="Super Mario Bros"/>
+    <br>
+    <br>
+    <h3>📜 </h3>
+    
+    <p>  In this article you'll learn about A3C: Asynchronous Advantage Actor Critic and how to implement it in Tensorflow </p>
+     <br>
+    <!--<h3> 📚 More ressources:  </h3>-->
+    <!--<ul>
+      <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 1: Introduction</a> </li>
+    </ul>-->
+        <br>
+</section>
+
+
+<!-- *********************************************************
+*                      Part 6
+*********************************************************** -->
+<section class="container-fluid center join-section" data-wow-duration="2s" id="videos">
+    <br>
+    <h2>Part 6: Proximal Policy Gradients </h2>
+    <!--<a href="#">
+            <button type="button" class="btn btn-success">Read the article
+            </button>
+        </a>-->
+<h3> 📅 April </h3>
+<br>
+<br>
+    <h3> 👨‍💻 A 3D Agent that learns to walk </h3>
+    <br>
+    <img src="assets/img/projects/reduced_mujoco.gif" alt="Mujoco"/>
+    <p>Taken from OpenAI </p>
+    <br>
+    <br>
+    <h3>📜 </h3>
+    
+    <p>  In this article you'll learn about PPO: Proximal Policy gradients and how to implement it in Tensorflow </p>
+     <br>
+   <!-- <h3> 📚 More ressources:  </h3>-->
+    <!--<ul>
+      <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 1: Introduction</a> </li>
+    </ul>-->
+        <br>
+</section>
+
+
+
+<!-- *********************************************************
+*                      Part 7
+*********************************************************** -->
+<section class="container-fluid center hiw-section" data-wow-duration="2s" id="videos">
+    <br>
+    <h2>Part 7: Not defined yet</h2>
+    <h3> 📅 May </h3>
+    <!--<h3>
+            <button type="button" class="btn btn-success">Read the article
+            </button>
+        </a>
+    </h3>-->
+   <!-- <h3> 👨‍💻 </h3>
+    <h3>📜 </h3>
+    
+    <p>  </p>
+     
+    <h3> 📚 More ressources:  </h3>-->
+    <!--<ul>
+      <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 1: Introduction</a> </li>
+    </ul>-->
+        <br>
+</section>
+
+
+
+
+<!-- *********************************************************
+*                      How to help section
+*********************************************************** -->
+<section class="container-fluid join-section center wow fadeInRight" data-wow-duration="2s" id="hth">
+    <br>
+    <h2>How to help?</h2>
+    <br>
+    <h3> 3 ways:</h3>
+    <div class="row">
+      <div class="col-lg-4">
+        <h2> 👏 </h2>
+        <h3> Clap our articles a lot </h3>
+        <p> Clapping in Medium means that you really like our articles. And <b>the more claps we have, the more our article is shared</b> </p>
+      </div>
+       <div class="col-lg-4">
+        <h2>  <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i>  <i class="fa fa-reedit"></i></h2>
+        <h3> Share and speak about our articles </h3>
+        <p> By sharing our articles you help us <b> to spread the word. </b> </p>
+      </div>
+       <div class="col-lg-4">
+        <h2>  👨‍💻 </h2>
+        <h3> Publish your own implementations.</h3>
+        <p> Show us what you've learn! </p>
+      </div>
+      
+
+    </section>
+
+<!-- *********************************************************
+*                       Keep in Touch section
+*********************************************************** -->
+<section class="container-fluid hiw-section center fadeInRight" data-wow-duration="2s" id="kit">
+    <br>
+    <h2> Keep in touch! </h2>
+    <br>
+
+    <ul class="social list-inline">
+
+    
+       <li class="social-twitter"><a href="https://twitter.com/ThomasSimonini"><i
+           class="fa fa-twitter"></i></a></li>
+
+           <li class="social-email"><a href="mailto:hello@simoninithomas.com"><i
+            class="fa fa-envelope"></i></a></li>
+            
+                <li class="social-github"><a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course"><i
+                    class="fa fa fa-github"></i></a></li>
+
+                </ul>
+
+
+
+                
+                <br>
+                <br>
+            </section>
+
+
+
+            <footer class="container-fluid text-center">
+                <br>
+                <div class="footer row">
+                    <div class="col-lg-6">
+                        <ul>
+                            <li>
+                                <a href="https://www.simoninithomas.com" >About</a>
+                            </li>
+                            <li>
+                                <a href="mailto:hello@simoninithomas.com">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul>
+                            <!--<li> <a href="https://youtube.com/"> See us on   <i class="fa fa-youtube fa-2x"></i></a>
+       
+                           </li>-->
+                       <!--  <li> <a href="https://youtube.com/"> See us on <i
+                         class="fa fa-twitch"></i> </a>
+             </li> 
+            <li>
+                 <a href="https://facebook.com/">Like our page <i
+                         class="fa fa-facebook"></i> </a>
+                     </li>-->
+                     <li>
+                       <a href="https://twitter.com/ThomasSimonini">Follow me on <i
+                           class="fa fa-twitter fa-2x"></i></a>
+                       </li>
+                       
+                           <!--<li>
+                               <a href="https://producthunt.com/">See us on <i
+                                   class="fa fa-product-hunt fa-2x"></i></a>
+                               </li>-->
+                           </ul>
+
+
+                       </div>
+                   </div>
+
+                   <p> 2018, <a href="http://www.simoninithomas.com">SIMONINI Thomas </a></p>
+
+
+               </footer>
+               
+               <!-- JS -->
+               <!-- jQuery first, then Tether, then Bootstrap JS. -->
+               <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+               <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+               <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+
+           </body>
+           </html>
