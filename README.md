@@ -12,8 +12,8 @@
 ### Part 3: Deep Q-learning with Doom [ARTICLE](https://medium.freecodecamp.org/an-introduction-to-deep-q-learning-lets-play-doom-54d02d8017d8)  //  [DOOM IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/DQN%20Doom/Deep%20Q%20learning%20with%20Doom.ipynb)<br>
 ### Part 3+: Improvments in Deep Q-Learning [ARTICLE (MAY)] //  [DOOM IMPLEMENTATION (MAY)] <br>
 ### Part 4: Policy Gradients with Doom [ARTICLE (APRIL)] //  [CARTPOLE IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Policy%20Gradients/Cartpole/Cartpole%20REINFORCE%20Monte%20Carlo%20Policy%20Gradients.ipynb) // [DOOM IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Policy%20Gradients/Doom/Doom%20REINFORCE%20Monte%20Carlo%20Policy%20gradients.ipynb) <br>
-### Part 5: Part 5: Asynchronous Advantage Actor Critic [ARTICLE (MAY)] //  [SUPER MARIO BROS IMPLEMENTATION (MAY)] <br>
-### Part 6: Part 6: Proximal Policy Gradients [ARTICLE (MAY)]<br>
+### Part 5: Advantage Advantage Actor Critic [ARTICLE (MAY)] //  [SUPER MARIO BROS IMPLEMENTATION (MAY)] <br>
+### Part 6: Proximal Policy Gradients [ARTICLE (MAY)]<br>
 
 ## Any questions 👨‍💻
 <p> If you have any questions, feel free to ask me: </p>
