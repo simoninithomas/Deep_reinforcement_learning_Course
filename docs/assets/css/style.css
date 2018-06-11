@@ -12,6 +12,10 @@ a {
     font-family: 'Press Start 2P', cursive;
 }
 
+.head_part * {
+	font-size: 3.3em!important;
+}
+
 /*****************************************************
 *                   General styles
 *****************************************************/
@@ -66,7 +70,7 @@ li {
     font-family: 'Open Sans', sans-serif;
 }
 li a{
-   
+
     font-family: 'Open Sans', sans-serif;
 }
 /*****************************************************
@@ -90,7 +94,7 @@ li a{
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    
+
 }
 
 
@@ -139,6 +143,9 @@ body, html {
 
 .catchphrase h1, p{
     color: white;
+}
+.above-background-video  p{
+    font-size: 1.2em;
 }
 
 .logo {
@@ -432,7 +439,7 @@ Social icons
 *****************************************************/
 
 footer p{
-    
+
     font-family: 'Press Start 2P', cursive!important;
     font-size: 0.9em;
 }
@@ -463,4 +470,3 @@ a.btn.btn-info, button.btn.btn-info, input.btn.btn-info {
     font-family: 'Press Start 2P', cursive!important;
 
 }
-
