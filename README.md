@@ -49,7 +49,12 @@
     
 ## How to help  🙌
 3 ways:
-- **Clap our articles a lot**:Clapping in Medium means that you really like our articles. And the more claps we have, the more our article is shared
-- **Share and speak about our articles**: By sharing our articles you help us to spread the word.
+
+ 
+
+
+
+- **Clap our articles and like our videos a lot**:Clapping in Medium means that you really like our articles. And the more claps we have, the more our article is shared Liking our videos help them to be much more visible to the deep learning community.
+- **Share and speak about our articles and videos**: By sharing our articles and videos you help us to spread the word. 
 - **Improve our notebooks**: if you found a bug or **a better implementation** you can send a pull request.
 <br>
