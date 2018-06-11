@@ -9,30 +9,36 @@
 
 # <a href="https://simoninithomas.github.io/Deep_reinforcement_learning_Course/">Syllabus</a><br>
 ## 📜 Part 1: Introduction to Reinforcement Learning [ARTICLE](https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419) <br>
+<br>
 ## Part 2: Q-learning with FrozenLake <br>
 ### 📜 [ARTICLE](https://medium.freecodecamp.org/diving-deeper-into-reinforcement-learning-with-q-learning-c18d0db58efe) // [FROZENLAKE IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Q%20Learning%20with%20FrozenLake.ipynb)<br>
 ### 📹 [Implementing a Q-learning agent that plays Taxi-v2 🚕 (📅 06/12)]
+<br>
 ## Part 3: Deep Q-learning with Doom <br>
 ### 📜 [ARTICLE](https://medium.freecodecamp.org/an-introduction-to-deep-q-learning-lets-play-doom-54d02d8017d8)  //  [DOOM IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/DQN%20Doom/Deep%20Q%20learning%20with%20Doom.ipynb)<br>
 ### 📹 [Create a DQN Agent that learns to play Atari Space Invaders 👾 (📅 06/15) ] <br>
+<br>
 ## Part 3+: Improvments in Deep Q-Learning <br>
 ### 📜 [ARTICLE (📅 JUNE)] <br>
 ### 📹 [Create an Agent that learns to play Doom Deadly corridor (📅 06/20 )] <br>
+<br>
 ## Part 4: Policy Gradients with Doom <br>
 ### 📜 [ARTICLE](https://medium.freecodecamp.org/an-introduction-to-policy-gradients-with-cartpole-and-doom-495b5ef2207f) //  [CARTPOLE IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Policy%20Gradients/Cartpole/Cartpole%20REINFORCE%20Monte%20Carlo%20Policy%20Gradients.ipynb) // [DOOM IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Policy%20Gradients/Doom/Doom%20REINFORCE%20Monte%20Carlo%20Policy%20gradients.ipynb) <br>
 ### 📹 [Create an Agent that learns to play Doom deathmatch (📅 06/27)] <br>
+<br>
 ## Part 5: Advantage Advantage Actor Critic (A2C) <br>
 ### 📜 [ARTICLE (📅 June)] <br>
 ### 📹 [Create an Agent that learns to play Outrun (📅 07/04)] <br>
-
+<br>
 ## Part 6: Asynchronous Advantage Actor Critic (A3C) <br>
 ### 📜 [ARTICLE (📅 July)] <br>
 ### 📹 [Create an Agent that learns to play Michael Jackson's Moonwalker (📅 07/11)] <br>
-
+<br>
 ## Part 7: Proximal Policy Gradients <br>
 ### 📜 [ARTICLE (📅 July)]<br>
-### 📹 [Create an Agent that learns to play walk with Mujoco (📅 07/18)]
-
+### 📹 [Create an Agent that learns to play walk with Mujoco (📅 07/18)]<br>
+<br>
+## Part 8: TBA <br>
 ## Any questions 👨‍💻
 <p> If you have any questions, feel free to ask me: </p>
 <p> 📧: <a href="mailto:hello@simoninithomas.com">hello@simoninithomas.com</a>  </p>
