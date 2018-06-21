@@ -18,13 +18,15 @@
 ### 📜 [ARTICLE](https://medium.freecodecamp.org/an-introduction-to-deep-q-learning-lets-play-doom-54d02d8017d8)  //  [DOOM IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/DQN/doom/Deep%20Q%20learning%20with%20Doom.ipynb)<br>
 ### 📹 [Create a DQN Agent that learns to play Atari Space Invaders 👾](https://youtu.be/gCJyVX98KJ4) <br><br>
 
+## Part 4: Policy Gradients with Doom <br>
+### 📜 [ARTICLE](https://medium.freecodecamp.org/an-introduction-to-policy-gradients-with-cartpole-and-doom-495b5ef2207f) //  [CARTPOLE IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Policy%20Gradients/Cartpole/Cartpole%20REINFORCE%20Monte%20Carlo%20Policy%20Gradients.ipynb) // [DOOM IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Policy%20Gradients/Doom/Doom%20REINFORCE%20Monte%20Carlo%20Policy%20gradients.ipynb) <br>
+### 📹 [Create an Agent that learns to play Doom deathmatch](https://www.youtube.com/watch?v=wLTQRuizVyE) <br><br>
+
 ## Part 3+: Improvments in Deep Q-Learning <br>
 ### 📜 [ARTICLE (📅 JUNE)] <br>
 ### 📹 [Create an Agent that learns to play Doom Deadly corridor (📅 06/30 )] <br><br>
 
-## Part 4: Policy Gradients with Doom <br>
-### 📜 [ARTICLE](https://medium.freecodecamp.org/an-introduction-to-policy-gradients-with-cartpole-and-doom-495b5ef2207f) //  [CARTPOLE IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Policy%20Gradients/Cartpole/Cartpole%20REINFORCE%20Monte%20Carlo%20Policy%20Gradients.ipynb) // [DOOM IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Policy%20Gradients/Doom/Doom%20REINFORCE%20Monte%20Carlo%20Policy%20gradients.ipynb) <br>
-### 📹 [Create an Agent that learns to play Doom deathmatch (📅 06/21)] <br><br>
+
 
 ## Part 5: Advantage Advantage Actor Critic (A2C) <br>
 ### 📜 [ARTICLE (📅 June)] <br>
