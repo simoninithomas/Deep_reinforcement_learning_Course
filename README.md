@@ -1,7 +1,7 @@
 # Deep Reinforcement Learning Course with Tensorflow
-<img src="https://simoninithomas.github.io/Deep_reinforcement_learning_Course/assets/img/preview.jpg" alt="Deep Reinforcement Course" style="width: 500px;"/>
+<img src="https://raw.githubusercontent.com/simoninithomas/Deep_reinforcement_learning_Course/master/docs/assets/img/DRLC%20Environments.png" alt="Deep Reinforcement Course with Tensorflow" style="width: 500px;"/>
 
-<p>  Deep Reinforcement Learning Course is a free series of blog posts and videos 🆕 about Deep Reinforcement Learning, where we'll learn the main algorithms, and how to implement them with Tensorflow.
+<p>  Deep Reinforcement Learning Course is a free series of blog posts and videos 🆕 about Deep Reinforcement Learning, where we'll <b>learn the main algorithms, and how to implement them with Tensorflow.</b>
 
 📜The articles explain the concept from the big picture to the mathematical details behind it.
 
@@ -51,10 +51,6 @@
     
 ## How to help  🙌
 3 ways:
-
- 
-
-
 
 - **Clap our articles and like our videos a lot**:Clapping in Medium means that you really like our articles. And the more claps we have, the more our article is shared Liking our videos help them to be much more visible to the deep learning community.
 - **Share and speak about our articles and videos**: By sharing our articles and videos you help us to spread the word. 
