@@ -1,1 +1,0 @@
-# ⚠️ The DQN with Doom implementation is now accessible <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/DQN/doom/Deep%20Q%20learning%20with%20Doom.ipynb">HERE</a>
