@@ -1,4 +1,4 @@
-# Deep Reinforcement Learning Course with Tensorflow
+# [Deep Reinforcement Learning Course with Tensorflow](https://simoninithomas.github.io/Deep_reinforcement_learning_Course/)
 <img src="https://raw.githubusercontent.com/simoninithomas/Deep_reinforcement_learning_Course/master/docs/assets/img/DRLC%20Environments.png" alt="Deep Reinforcement Course with Tensorflow" style="width: 500px;"/>
 
 <p>  Deep Reinforcement Learning Course is a free series of blog posts and videos 🆕 about Deep Reinforcement Learning, where we'll <b>learn the main algorithms, and how to implement them with Tensorflow.</b>
@@ -11,11 +11,11 @@
 ## 📜 Part 1: Introduction to Reinforcement Learning [ARTICLE](https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419) <br><br>
 
 ## Part 2: Q-learning with FrozenLake <br>
-### 📜 [ARTICLE](https://medium.freecodecamp.org/diving-deeper-into-reinforcement-learning-with-q-learning-c18d0db58efe) // [FROZENLAKE IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Q%20Learning%20with%20FrozenLake.ipynb)<br>
+### 📜 [ARTICLE](https://medium.freecodecamp.org/diving-deeper-into-reinforcement-learning-with-q-learning-c18d0db58efe) // [FROZENLAKE IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/FrozenLake/Q%20Learning%20with%20FrozenLake.ipynb)<br>
 ### 📹 [Implementing a Q-learning agent that plays Taxi-v2 🚕](https://youtu.be/q2ZOEFAaaI0) <br><br>
 
 ## Part 3: Deep Q-learning with Doom <br>
-### 📜 [ARTICLE](https://medium.freecodecamp.org/an-introduction-to-deep-q-learning-lets-play-doom-54d02d8017d8)  //  [DOOM IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/DQN/doom/Deep%20Q%20learning%20with%20Doom.ipynb)<br>
+### 📜 [ARTICLE](https://medium.freecodecamp.org/an-introduction-to-deep-q-learning-lets-play-doom-54d02d8017d8)  //  [DOOM IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Deep%20Q%20Learning/Doom/Deep%20Q%20learning%20with%20Doom.ipynb)<br>
 ### 📹 [Create a DQN Agent that learns to play Atari Space Invaders 👾](https://youtu.be/gCJyVX98KJ4) <br><br>
 
 ## Part 4: Policy Gradients with Doom <br>
@@ -24,12 +24,10 @@
 
 ## Part 3+: Improvments in Deep Q-Learning <br>
 ### 📜 [ARTICLE (📅 JUNE)] <br>
-### 📹 [Create an Agent that learns to play Doom Deadly corridor (📅 06/30 )] <br><br>
-
-
+### 📹 [Create an Agent that learns to play Doom Deadly corridor](https://youtu.be/-Ynjw0Vl3i4) <br><br>
 
 ## Part 5: Advantage Advantage Actor Critic (A2C) <br>
-### 📜 [ARTICLE (📅 June)] <br>
+### 📜 [ARTICLE (📅 July)] <br>
 ### 📹 [Create an Agent that learns to play Outrun (📅 July)] <br><br>
 
 ## Part 6: Asynchronous Advantage Actor Critic (A3C) <br>
