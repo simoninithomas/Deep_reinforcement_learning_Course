@@ -40,19 +40,20 @@
     <!-- Custom CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- Font Awesome -->
-<link href="assets/font awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Font Awesome new -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
+    <!-- Font awesome older for compatibilities issues -->
+    <script src="https://use.fontawesome.com/8b03d69eb0.js"></script>
     <!-- Mailchimp -->
 <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"d58d585621531bd51fd457665","lid":"4519ef8bed"}) })</script>
-
 </head>
 <body>
 
 <!-- *********************************************************
 *                       Header section
 *********************************************************** -->
-<section class="container-fluid header-section">
+<div class="container-fluid header-section">
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -80,72 +81,116 @@
 </nav>
 
 
-<div class="above-background-video">
+<div class="above-background-video container">
     <br>
-    <h1> A free course in Deep Reinforcement Learning with Tensorflow 🕹️</h1>
-    <p> Deep Reinforcement Learning Course is a <b>free series of blog posts and videos 🆕 about Deep Reinforcement Learning</b>, where we'll learn the main algorithms, and <b>how to implement them with Tensorflow.</b></p>
     <br>
-    <p> 📜The articles explain the concept from the big picture to the mathematical details behind it. </p>
-    <p>📹 The videos explain how to create the agent with Tensorflow </p>
-        <br>
-    <p> Some of the environments you will work with during this course: </p>
+    <h1> A Free course in Deep Reinforcement Learning from beginner to expert.</h1>
 
-    <div class="row">
 
-        <div class="col-lg-2">
-        </div>
-        	<div class="doom-image">
-          	<img  src="assets/img/DRLC Illustration.gif" alt="Deep Reinforcement Learning Course with Tensorflow"/>
-            <br>
-            <br>
+      <!--<p> Master the skills of this fascinating area of AI. </p>-->
+<br>
+      <p> Some of the agents you'll implement in this course: </p>
+
+        	<div class="catch-image">
+          	<img  src="assets/img/DRLC Environments.jpg" alt="Deep Reinforcement Learning Course with Tensorflow"/>
 
 </div>
-</div>
-<div class="row">
+<p> This course is a series of articles and videos where <b>you'll master the skills and architectures you need, to
+  become a deep reinforcement learning expert.</b>
+<br><br>
+  You'll <b>build a strong professional portfolio</b> by implementing awesome agents with Tensorflow that
+  learns to play Space invaders, Doom, Sonic the hedgehog and more!
+</p>
+
+<div class='row'>
   <div class="col-lg-2"></div>
-
 <div class="col-lg-4">
      <a class="nav-link" href="#syllabus" target="_self">
-            <button type="button" class="btn btn-success">Read the syllabus
+            <button type="button" class="btn btn-lg btn-success">Read the syllabus
             </button>
         </a>
         </div>
           <div class="col-lg-4">
         <a class="nav-link" href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course" >
-               <button type="button" class="btn btn-success">See the Github repo <i class="fa fa-github"></i>
+               <button type="button" class="btn btn-lg btn-info">See the Github repo
+    <i class="fab fa-github"></i></i>
                </button>
            </a>
       </div>
 </div>
-
-
-
-
+<br/>
+<br/>
 </div>
-<br/>
-<br/>
-
-
-
+<br><br>
+</div>
 </section>
 
 
 <!-- *********************************************************
+                      Social proofs
+*********************************************************** -->
+<!--<section class="container-fluid center join-section" id="soc-proof">-->
+
+
+
+<section class="container card-overlay">
+<div class="card card-shadow">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-lg-4 social-proof center">
+    <i class="fab fa-medium fa-5x" style="color:#00ab6c;"></i>
+        <ul>
+          <hr/>
+          <li>23,330 Readers</li>
+          <hr/>
+          <li> 2,300 Reads/week </li>
+          <hr/>
+          <li>12,142 Claps</li>
+          <hr/>
+        <li>1,555 Fans</li>
+<hr/>
+      </p>
+      </div>
+
+      <div class="col-lg-4 social-proof center">
+    <i class="fab fa-github fa-5x" style="color: #333;"></i></i>
+        <ul>
+          <hr/>
+          <li>271 <i class="fas fa-star"></i> </li>
+          <hr/>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 social-proof center">
+        <i class="fa fa-youtube-square fa-5x" style="color:#ff0000;"></i>
+        <ul>
+          <hr/>
+
+        <li>2801 Views</li>
+        <hr/>
+      </ul>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+<!-- *********************************************************
 *                      Part 1
 *********************************************************** -->
-<section class="container-fluid center join-section" id="syllabus">
+<section class="syllabus" id="syllabus">
+  <div class="step1">
+    <div class="container">
     <br>
-    <h2>Part 1: What is Deep Reinforcement Learning?</h2>
+    <br>
+    <br>
+    <h2>Step 1: What is Deep Reinforcement Learning?</h2>
+    <hr/>
 
     <a href="https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419">
-            <button type="button" class="btn btn-success">Read the article
+            <button type="button" class="btn btn-lg btn-success">Read the article
             </button>
         </a>
-
-    <br>
-    <br>
-
-
 
     <p>  In this article you'll learn <b>all the basics elements you need to master before diving on the Deep Reinforcement Learning algorithms.</b>
       <ul>
@@ -159,21 +204,22 @@
     <ul class="ressources">
       <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 1: Introduction</a> </li>
     </ul>
-</section>
-
+</div>
+</div>
 <!-- *********************************************************
-*                       Part 2
+*                       Step 2
 *********************************************************** -->
-<section class="container-fluid hiw-section center wow fadeInLeft"
-style="padding-left: 0; padding-right:0" id="hiw">
+<div class="step2  hiw-section">
+  <div class="container">
 <br>
-<h2>Part 2: Q-Learning</h2>
+<h2>Step 2: Q-Learning</h2>
+<hr/>
 <div class="row">
 <div class="col-lg-6">
   <h3>📜 Course: </h3>
   <p>  You'll learn the <b>Q-learning algorithm and how to implement it with Numpy.</b> </p>
   <a href="https://medium.freecodecamp.org/diving-deeper-into-reinforcement-learning-with-q-learning-c18d0db58efe">
-              <button type="button" class="btn btn-success">Read the article
+              <button type="button" class="btn btn-lg btn-success">Read the article
               </button>
           </a>
 
@@ -187,8 +233,8 @@ style="padding-left: 0; padding-right:0" id="hiw">
     <h3> </h3>
 
 
-            <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Q%20Learning%20with%20FrozenLake.ipynb">
-                <button type="button" class="btn btn-success">👨‍💻 Read the notebook
+            <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/FrozenLake/Q%20Learning%20with%20FrozenLake.ipynb">
+                <button type="button" class="btn btn-lg btn-success">👨‍💻 Read the notebook
                 </button>
             </a>
 
@@ -202,14 +248,14 @@ style="padding-left: 0; padding-right:0" id="hiw">
   <h3> 👨‍💻 Create an Agent that learns to play Taxi-v2 </h3>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/q2ZOEFAaaI0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-  <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning">
-      <button type="button" class="btn btn-success">👨‍💻 Read the notebook
+  <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Taxi-v2/Q%20Learning%20with%20OpenAI%20Taxi-v2%20video%20version.ipynb">
+      <button type="button" class="btn btn-lg btn-success">👨‍💻 Read the notebook
       </button>
   </a>
 
 </div>
 </div>
-
+<br>
 
     <h3> 📚 More ressources:  </h3>
     <ul>
@@ -217,22 +263,23 @@ style="padding-left: 0; padding-right:0" id="hiw">
       <li> <a href="https://www.youtube.com/watch?v=aCEvtRtNO-M">Q learning explained by Siraj Raval</a> </li>
     </ul>
     <br>
-</section>
-
+  </div>
+</div>
 
 <!-- *********************************************************
 *                      Part 3
 *********************************************************** -->
-<section class="container-fluid join-section center wow fadeInLeft"
-style="padding-left: 0; padding-right:0" id="hiw">
+<div class="step3">
+  <div class="container">
 <br>
-<h2>Part 3: Deep Q-Learning</h2>
+<h2>Step 3: Deep Q-Learning</h2>
+<hr/>
 <div class="row">
 <div class="col-lg-6">
   <h3>📜 Course: </h3>
   <p> You'll learn <b> the Deep Q Learning algorithm and how to implement it with Tensorflow.</b> </p>
   <a href="https://medium.freecodecamp.org/an-introduction-to-deep-q-learning-lets-play-doom-54d02d8017d8">
-              <button type="button" class="btn btn-success">Read the article
+              <button type="button" class="btn btn-lg btn-success">Read the article
               </button>
           </a>
 
@@ -246,8 +293,8 @@ style="padding-left: 0; padding-right:0" id="hiw">
     <h3> </h3>
 
 
-    <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/DQN/doom/Deep%20Q%20learning%20with%20Doom.ipynb">
-    <button type="button" class="btn btn-success">👨‍💻 Read the notebook
+    <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Deep%20Q%20Learning/Doom/Deep%20Q%20learning%20with%20Doom.ipynb">
+    <button type="button" class="btn btn-lg btn-success">👨‍💻 Read the notebook
     </button>
 </a>
 
@@ -258,8 +305,8 @@ style="padding-left: 0; padding-right:0" id="hiw">
   <h3>📹 Video: </h3>
   <h3> 👨‍💻 Create an Agent that learns to play Atari Space Invaders </h3>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/gCJyVX98KJ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/DQN/Space%20Invaders/DQN%20Atari%20Space%20Invaders.ipynb">
-      <button type="button" class="btn btn-success">👨‍💻 Read the notebook
+  <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Deep%20Q%20Learning/Space%20Invaders/DQN%20Atari%20Space%20Invaders.ipynb">
+      <button type="button" class="btn btn-lg btn-success">👨‍💻 Read the notebook
       </button>
   </a>
 </div>
@@ -269,22 +316,23 @@ style="padding-left: 0; padding-right:0" id="hiw">
       <li> <a href="https://www.youtube.com/watch?v=79pmNdyxEGo">Deep Q Learning for Video Games by Siraj Raval</a> </li>
     </ul>
     <br>
-</section>
-
+</div>
+</div>
 
 <!-- *********************************************************
 *                      Part 3+
 *********************************************************** -->
-<section class="container-fluid hiw-section center wow fadeInLeft"
-style="padding-left: 0; padding-right:0" id="hiw">
+<div class="step3p  hiw-section">
+  <div class="container">
 <br>
-<h2>Part 3+: Improvments in Deep Q Learning</h2>
+<h2>Step 3+: Improvments in Deep Q Learning</h2>
+<hr/>
 <div class="row">
 <div class="col-lg-6">
   <h3>📜 Course: </h3>
   <p>  You'll learn the <b>latests improvments in Deep Q Learning (Dueling Double DQN, Prioritized Expericence Replay and fixed q-targets) and how to implement them with Tensorflow.</b> </p>
   <a href="https://medium.freecodecamp.org/improvements-in-deep-q-learning-dueling-double-dqn-prioritized-experience-replay-and-fixed-58b130cc5682">
-              <button type="button" class="btn btn-success">Read the article
+              <button type="button" class="btn btn-lg btn-success">Read the article
               </button>
           </a>
 <br>
@@ -293,7 +341,7 @@ style="padding-left: 0; padding-right:0" id="hiw">
 
 
             <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Dueling%20Double%20DQN%20with%20PER%20and%20fixed-q%20targets/Dueling%20Deep%20Q%20Learning%20with%20Doom%20(%2B%20double%20DQNs%20and%20Prioritized%20Experience%20Replay).ipynb">
-                <button type="button" class="btn btn-success">👨‍💻 Read the notebook
+                <button type="button" class="btn btn-lg btn-success">👨‍💻 Read the notebook
                 </button>
             </a>
 
@@ -315,20 +363,22 @@ style="padding-left: 0; padding-right:0" id="hiw">
 
     <!--<h3> 📚 More ressources:  </h3>-->
 
-</section>
+</div>
+</div>
 <!-- *********************************************************
 *                       Part 4
 *********************************************************** -->
-<section class="container-fluid join-section center wow fadeInLeft"
-style="padding-left: 0; padding-right:0" id="hiw">
+<div class="step4">
+  <div class="container">
 <br>
 <h2>Part 4: Policy Gradients</h2>
+<hr/>
 <div class="row">
 <div class="col-lg-6">
   <h3>📜 Course: </h3>
   <p>  In this article you'll learn about Policy gradients and how to implement it with Tensorflow. </p>
   <a href="https://medium.freecodecamp.org/an-introduction-to-policy-gradients-with-cartpole-and-doom-495b5ef2207f">
-              <button type="button" class="btn btn-success">Read the article
+              <button type="button" class="btn btn-lg btn-success">Read the article
               </button>
           </a>
 
@@ -343,7 +393,7 @@ style="padding-left: 0; padding-right:0" id="hiw">
 
 
     <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/Policy%20Gradients">
-    <button type="button" class="btn btn-success">👨‍💻 Read the notebooks
+    <button type="button" class="btn btn-lg btn-success">👨‍💻 Read the notebooks
     </button>
   </a>
 
@@ -355,30 +405,28 @@ style="padding-left: 0; padding-right:0" id="hiw">
   <h3> 📅 06/21 </h3>
   <h3> 👨‍💻 Create an Agent that learns to play Doom deathmatch </h3>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wLTQRuizVyE?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br> <br>
-  <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Policy%20Gradients/Doom%20Deathmatch/Doom-deathmatch%20REINFORCE%20Monte%20Carlo%20Policy%20gradients.ipynb">
-      <button type="button" class="btn btn-success">👨‍💻 Read the notebook
-      </button>
-  </a>
+
 </div>
 </div>
-    <h3> 📚 More ressources:  </h3>
-    <ul>
-        </ul>
-    <br>
-</section>
+  <br  >
+</div>
+</div>
 
 
 <!-- *********************************************************
 *                      Part 5
 *********************************************************** -->
-<section class="container-fluid hiw-section center wow fadeInLeft"
-style="padding-left: 0; padding-right:0" id="hiw">
+<div class="step5 hiw-section">
+  <div class="container">
 <br>
+
+
 <h2>Part 5:  Advantage Actor Critic (A2C)</h2>
+<hr/>
 <div class="row">
 <div class="col-lg-6">
   <h3>📜 Course: </h3>
-  <h3> 📅 June </h3>
+  <h3> 📅 July </h3>
   <p>  You'll learn the <b>Actor Critic's logic and how to implement it with Tensorflow.</b> </p>
   <!--<a href="https://medium.freecodecamp.org/diving-deeper-into-reinforcement-learning-with-q-learning-c18d0db58efe">
               <button type="button" class="btn btn-success">Read the article
@@ -399,7 +447,7 @@ style="padding-left: 0; padding-right:0" id="hiw">
 </div>
 <div class="col-lg-6">
   <h3>📹 Video: </h3>
-  <h3> 📅 07/09 </h3>
+  <h3> 📅 07/16 </h3>
 </div>
 </div>
 <h3> 👨‍💻 Create an Agent that learns to play Outrun</h3>
@@ -417,66 +465,17 @@ style="padding-left: 0; padding-right:0" id="hiw">
     </ul>
         <br>
 
-</section>
+</div>
+</div>
 
 <!-- *********************************************************
 *                      Part 6
 *********************************************************** -->
-<section class="container-fluid join-section center wow fadeInLeft"
-style="padding-left: 0; padding-right:0" id="join">
+<div class="step6">
+  <div class="container">
 <br>
-<h2>Part 6: Asynchronous Advantage Actor Critic (A3C)</h2>
-<div class="row">
-<div class="col-lg-6">
-  <h3>📜 Course: </h3>
-  <h3> 📅 July </h3>
-  <p>  You'll learn the <b>Asynchronous way to train Actor Critic agent with Tensorflow.</b> </p>
-  <!--<a href="https://medium.freecodecamp.org/diving-deeper-into-reinforcement-learning-with-q-learning-c18d0db58efe">
-              <button type="button" class="btn btn-success">Read the article
-              </button>
-          </a>
-<br>
-    <br>
-
-
-
-            <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Q%20Learning%20with%20FrozenLake.ipynb">
-                <button type="button" class="btn btn-success">👨‍💻 Read the notebook
-                </button>
-            </a>
-
-                <br>
--->
-</div>
-<div class="col-lg-6">
-  <h3>📹 Video: </h3>
-  <h3>  📅 July </h3>
-</div>
-</div>
-<h3> 👨‍💻 Create an Agent that learns to play Michael Jackson's Moonwalker</h3>
-<img src="assets/img/video projects/MJ moonwalker.gif" alt="Genesis Michael Jackson Moonwalker"/>
-<br>
-<br>
-<!--<a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Q%20Learning%20with%20FrozenLake.ipynb">
-      <button type="button" class="btn btn-success">👨‍💻 Read the notebook
-      </button>
-  </a>
-
-    <h3> 📚 More ressources:  </h3>
-    <ul>
-      <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 13: Policy Gradient Methods </a> </li>
-    </ul>-->
-        <br>
-
-</section>
-
-<!-- *********************************************************
-*                      Part 7
-*********************************************************** -->
-<section class="container-fluid hiw-section center wow fadeInLeft"
-style="padding-left: 0; padding-right:0" id="hiw">
-<br>
-<h2>Part 7: Proximal Policy Gradients in A2C style</h2>
+<h2>Part 6: Proximal Policy Gradients in A2C style</h2>
+<hr/>
 <div class="row">
 <div class="col-lg-6">
   <h3>📜 Course: </h3>
@@ -520,22 +519,26 @@ style="padding-left: 0; padding-right:0" id="hiw">
     </ul>
         <br>
 
-</section>
+</div>
+</div>
 
 <!-- *********************************************************
 *                      Part 8
 *********************************************************** -->
-<section class="container-fluid center join-section" data-wow-duration="2s" id="videos">
+<div class="step7 hiw-section">
+  <div class="container">
     <br>
     <h2>Part 8: PPO with transfer</h2>
     <h3> 📅 July </h3>
     <h3> TBA </h3>
-
+<br>
+</div>
+</div>
 </section>
 <!-- *********************************************************
 *                      How to help section
 *********************************************************** -->
-<section class="container-fluid hiw-section center wow fadeInRight" data-wow-duration="2s" id="hth">
+<section class="container-fluid  center wow fadeInRight" data-wow-duration="2s" id="hth">
     <br>
     <h2>How to help?</h2>
     <br>
@@ -548,7 +551,7 @@ style="padding-left: 0; padding-right:0" id="hiw">
         <p> Liking our videos help them to <b>be much more visible to the deep learning community</b></p>
       </div>
        <div class="col-lg-4">
-        <h2>  <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i>  <i class="fa fa-reedit"></i></h2>
+        <h2>  <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i>  <i class="fab fa-reddit"></i></h2>
         <h3> Share and speak about our articles and videos </h3>
         <p> By sharing our articles and videos you help us <b> to spread the word. </b> </p>
       </div>
@@ -564,7 +567,7 @@ style="padding-left: 0; padding-right:0" id="hiw">
 <!-- *********************************************************
 *                       Keep in Touch section
 *********************************************************** -->
-<section class="container-fluid join-section center fadeInRight" data-wow-duration="2s" id="kit">
+<section class="container-fluid join-section hiw-section center fadeInRight" data-wow-duration="2s" id="kit">
     <br>
     <h2> Keep in touch! </h2>
     <br>
@@ -572,14 +575,13 @@ style="padding-left: 0; padding-right:0" id="hiw">
     <ul class="social list-inline">
 
 
-       <li class="social-twitter"><a href="https://twitter.com/ThomasSimonini"><i
-           class="fa fa-twitter"></i></a></li>
+       <li class="social-twitter"><a href="https://twitter.com/ThomasSimonini"><i class="fa fa-twitter"></i></a></li>
 
            <li class="social-email"><a href="mailto:hello@simoninithomas.com"><i
             class="fa fa-envelope"></i></a></li>
 
                 <li class="social-github"><a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course"><i
-                    class="fa fa fa-github"></i></a></li>
+                    class="fa fa-github"></i></a></li>
 
                 </ul>
 
