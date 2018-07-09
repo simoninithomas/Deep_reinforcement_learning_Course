@@ -2,14 +2,37 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Lato');
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
-.doom-image img {
-	max-width: 90%;
-	max-height:90%;
+
+
+.social-proof * {
+	font-size: 1.2em;
+	list-style-type: none;
 }
+
+.card-overlay{
+margin-top: -80px;
+}
+
+.catch-image img {
+	max-width: 80%;
+	max-height:80%;
+}
+
+.card-shadow{
+	-webkit-box-shadow: 9px 8px 51px -3px rgba(23,21,23,0.5);
+-moz-box-shadow: 9px 8px 51px -3px rgba(23,21,23,0.5);
+box-shadow: 9px 8px 51px -3px rgba(23,21,23,0.5);
+}
+
+
+.syllabus {
+	background-color: rgb(251, 252, 253);
+	color: black;
+}
+
 a {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Lato';
 }
 
 .head_part * {
@@ -22,7 +45,7 @@ a {
 
 
 .navbar-brand a {
-    font-family: 'Press Start 2P', cursive!important;
+    font-family: 'Lato';
 }
 
 
@@ -54,12 +77,12 @@ a {
     height: 150px;
 }
 h1 {
-    font-family: 'Press Start 2P', cursive!important;
+    font-family: 'Open Sans';
     color:white;
 }
 
 h2 {
-    font-family: 'Press Start 2P', cursive!important;
+    font-family: 'Open Sans';
 }
 
 p {
@@ -82,18 +105,16 @@ li a{
 
 }
 .navbar * {
-    font-family: 'Press Start 2P', cursive!important;
-    font-size: 0.9em;
+    font-family: 'Lato';
     color:white!important;
 }
 
 
 .header-section {
-    background: url('../../assets/img/background2.jpg') no-repeat top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+	background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
 
 }
 
@@ -141,11 +162,14 @@ body, html {
     color: #000;
 }
 
-.catchphrase h1, p{
-    color: white;
-}
+
 .above-background-video  p{
     font-size: 1.2em;
+}
+
+.step2{
+
+
 }
 
 .logo {
@@ -157,19 +181,17 @@ body, html {
 *                   How it works section
 *****************************************************/
 .hiw-section{
-    background-color:rgb(39,40,34);
-    padding: 0!important;
-}
-.hiw-section h2{
-    color:white;
-}
-.hiw-section h3{
-    color:white;
+	background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
 }
 
-.hiw-section p{
-    color:white;
+.hiw-section a{
+	color:white;
+
 }
+
 .ressources * {
     font-family: 'Open Sans', sans-serif;
 }
@@ -449,24 +471,6 @@ footer{
     background-color:rgb(39,40,34);
 }
 
-a.footer{
+footer a{
     color: white!important;
-}
-
-
-
-a.btn.btn-success, button.btn.btn-success, input.btn.btn-success {
-    background-color: #00ff00;
-    border-color: #00ff00;
-    color: #000000;
-    font-family: 'Press Start 2P', cursive!important;
-}
-
-a.btn.btn-info, button.btn.btn-info, input.btn.btn-info {
-
-    background-color: #00ffff;
-    border-color: #00ffff;
-    color: #000000;
-    font-family: 'Press Start 2P', cursive!important;
-
 }
