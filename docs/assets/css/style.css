@@ -5,6 +5,9 @@
 
 
 
+.illustration * {
+    max-width: 50%;
+}
 .social-proof * {
 	font-size: 1.2em;
 	list-style-type: none;

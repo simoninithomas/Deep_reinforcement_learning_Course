@@ -1,63 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116674445-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-116674445-1');
+  function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-116674445-1");
 </script>
-
+  
 <!-- Hotjar Tracking Code for https://simoninithomas.github.io/deep_reinforcement_learning_course/ -->
 <script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:833802,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  !function(t,h,e,j,s,n){t.hj=t.hj||function(){(t.hj.q=t.hj.q||[]).push(arguments)},t._hjSettings={hjid:833802,hjsv:6},s=h.getElementsByTagName("head")[0],(n=h.createElement("script")).async=1,n.src="https://static.hotjar.com/c/hotjar-"+t._hjSettings.hjid+".js?sv="+t._hjSettings.hjsv,s.appendChild(n)}(window,document);
 </script>
-
-<script type="text/javascript">
-  (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
-  ;r.type="text/javascript";r.async=true
-  ;r.src="https://cdn.amplitude.com/libs/amplitude-4.2.1-min.gz.js"
-  ;r.onload=function(){if(e.amplitude.runQueuedFunctions){
-  e.amplitude.runQueuedFunctions()}else{
-  console.log("[Amplitude] Error: could not load SDK")}}
-  ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
-  ;function s(e,t){e.prototype[t]=function(){
-  this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
-  var o=function(){this._q=[];return this}
-  ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
-  ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
-  ;return this}
-  ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
-  ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
-  ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
-  ;function v(e){function t(t){e[t]=function(){
-  e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
-  for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
-  e=(!e||e.length===0?"$default_instance":e).toLowerCase()
-  ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
-  ;e.amplitude=n})(window,document);
-
-  amplitude.getInstance().init("f9653daaf6a9229dc543efc7991deace");
-</script>
-
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Deep Reinforcement Learning Course</title>
 
-    <meta name="description" content="Deep Reinforcement Learning Course is a free series of blog posts about Deep Reinforcement Learning, where we'll learn the main algorithms, and how to implement them in Tensorflow.">
+    <meta name="description" content="Deep Reinforcement Learning Course is a free series of blog posts and videos about Deep Reinforcement Learning, where we'll learn the main algorithms, and how to implement them in Tensorflow.">
     <meta name="author" content="SIMONINI Thomas">
 
     <!-- CSS -->
@@ -68,15 +30,19 @@
     <link href="assets/css/style.css" rel="stylesheet">
 
     <!-- Font Awesome new -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
     <!-- Font awesome older for compatibilities issues -->
     <script src="https://use.fontawesome.com/8b03d69eb0.js"></script>
+    
     <!-- Mailchimp -->
-<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"d58d585621531bd51fd457665","lid":"4519ef8bed"}) })</script>
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"d58d585621531bd51fd457665","lid":"4519ef8bed"}) })</script>
 
-<script src="https://apis.google.com/js/platform.js"></script>
+    <!-- Hello bar -->
+    <script src="https://my.hellobar.com/1eb7989f340a0d659ecf445943f12c57d94b7d88.js" type="text/javascript" charset="utf-8" async="async"></script>
 </head>
+
 <body>
 
 <!-- *********************************************************
@@ -94,7 +60,9 @@
 
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">
-              <a class="nav-link" href="#syllabus" target="_self">Syllabus</a>
+              <a class="nav-link" href="#syllabus" target="_self"><button type="button" class="btn  btn-success">Start learning now
+            </button></a>
+              
           </li>
           <li class="nav-item">
               <a class="nav-link" href="#hth" target="_self">How to help?</a>
@@ -115,10 +83,8 @@
     <br>
     <h1> A Free course in Deep Reinforcement Learning from beginner to expert.</h1>
 
-
-      <!--<p> Master the skills of this fascinating area of AI. </p>-->
 <br>
-      <p> Some of the agents you'll implement in this course: </p>
+      <p> Some of the agents you'll implement during this course: </p>
 
         	<div class="catch-image">
           	<img  src="assets/img/DRLC Environments.jpg" alt="Deep Reinforcement Learning Course with Tensorflow"/>
@@ -132,10 +98,10 @@
 </p>
 
 <div class='row'>
-
+<div class="col-lg-2"></div>
 <div class="col-lg-4">
-     <a class="nav-link" href="#syllabus" target="_self" amplitude.getInstance().logEvent('TEST');>
-            <button type="button" class="btn btn-lg btn-success">Read the syllabus
+     <a class="nav-link" href="#syllabus" target="_self">
+            <button type="button" class="btn btn-lg btn-success">Start learning now
             </button>
         </a>
         </div>
@@ -146,11 +112,7 @@
                </button>
            </a>
       </div>
-      <div class="col-lg-4">
 
-
-  <div class="g-ytsubscribe" data-channelid="UC8XuSf1eD9AF8x8J19ha5og" data-layout="default" data-count="hidden"></div>
-      </div>
 </div>
 <br/>
 <br/>
@@ -163,10 +125,6 @@
 <!-- *********************************************************
                       Social proofs
 *********************************************************** -->
-<!--<section class="container-fluid center join-section" id="soc-proof">-->
-
-
-
 <section class="container card-overlay">
 <div class="card card-shadow">
   <div class="card-body">
@@ -175,13 +133,13 @@
     <i class="fab fa-medium fa-5x" style="color:#00ab6c;"></i>
         <ul>
           <hr/>
-          <li>23,330 Readers</li>
+          <li>24,428 Readers</li>
           <hr/>
           <li> 2,300 Reads/week </li>
           <hr/>
-          <li>12,142 Claps</li>
+          <li>12,970 Claps</li>
           <hr/>
-        <li>1,555 Fans</li>
+        <li>1,631 Fans</li>
 <hr/>
       </p>
       </div>
@@ -190,7 +148,7 @@
     <i class="fab fa-github fa-5x" style="color: #333;"></i></i>
         <ul>
           <hr/>
-          <li>271 <i class="fas fa-star"></i> </li>
+          <li>284 <i class="fas fa-star"></i> </li>
           <hr/>
         </ul>
       </div>
@@ -200,7 +158,7 @@
         <ul>
           <hr/>
 
-        <li>2801 Views</li>
+        <li>3556 Views</li>
         <hr/>
       </ul>
       </div>
@@ -226,7 +184,7 @@
             </button>
         </a>
 
-    <p>  In this article you'll learn <b>all the basics elements you need to master before diving on the Deep Reinforcement Learning algorithms.</b>
+    <p>  You'll learn <b>all the essentials concepts you need to master before diving on the Deep Reinforcement Learning algorithms.</b>
       <ul>
         <li>What’s Deep Reinforcement Learning and what is its process?</li>
         <li>Why rewards is the central idea in RL?</li>
@@ -268,7 +226,7 @@
 
 
             <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/FrozenLake/Q%20Learning%20with%20FrozenLake.ipynb">
-                <button type="button" class="btn btn-lg btn-success">👨‍💻 Read the notebook
+                <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
                 </button>
             </a>
 
@@ -283,8 +241,7 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/q2ZOEFAaaI0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
   <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Taxi-v2/Q%20Learning%20with%20OpenAI%20Taxi-v2%20video%20version.ipynb">
-      <button type="button" class="btn btn-lg btn-success">👨‍💻 Read the notebook
-      </button>
+      <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
   </a>
 
 </div>
@@ -321,14 +278,14 @@
 <br>
     <br>
     <h3> 👨‍💻 An Agent that plays Doom and kill enemies </h3>
-    <img src="assets/img/projects/doom_reduced.gif" alt="Doom"/>
+    <img class="img-fluid" src="assets/img/doom.jpg" alt="Doom"/>
     <br>
     <br>
     <h3> </h3>
 
 
     <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Deep%20Q%20Learning/Doom/Deep%20Q%20learning%20with%20Doom.ipynb">
-    <button type="button" class="btn btn-lg btn-success">👨‍💻 Read the notebook
+    <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
     </button>
 </a>
 
@@ -340,7 +297,7 @@
   <h3> 👨‍💻 Create an Agent that learns to play Atari Space Invaders </h3>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/gCJyVX98KJ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Deep%20Q%20Learning/Space%20Invaders/DQN%20Atari%20Space%20Invaders.ipynb">
-      <button type="button" class="btn btn-lg btn-success">👨‍💻 Read the notebook
+      <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
       </button>
   </a>
 </div>
@@ -375,7 +332,7 @@
 
 
             <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Dueling%20Double%20DQN%20with%20PER%20and%20fixed-q%20targets/Dueling%20Deep%20Q%20Learning%20with%20Doom%20(%2B%20double%20DQNs%20and%20Prioritized%20Experience%20Replay).ipynb">
-                <button type="button" class="btn btn-lg btn-success">👨‍💻 Read the notebook
+                <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
                 </button>
             </a>
 
@@ -390,12 +347,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-Ynjw0Vl3i4?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <br>
 <br>
-<!--<a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Q%20Learning%20with%20FrozenLake.ipynb">
-      <button type="button" class="btn btn-success">👨‍💻 Read the notebook
-      </button>
-  </a>-->
 
-    <!--<h3> 📚 More ressources:  </h3>-->
 
 </div>
 </div>
@@ -420,14 +372,14 @@
 <br>
     <br>
     <h3> 👨‍💻 An Agent that learns to survive in an hostile environment in Doom </h3>
-    <img src="assets/img/projects/projectw4_reduced.gif" alt="Doom Health"/>
+    <img src="assets/img/doom_health.jpg" class="img-fluid" alt="Doom Health"/>
     <br>
     <br>
     <h3> </h3>
 
 
     <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/Policy%20Gradients">
-    <button type="button" class="btn btn-lg btn-success">👨‍💻 Read the notebooks
+    <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
     </button>
   </a>
 
@@ -436,7 +388,7 @@
 </div>
 <div class="col-lg-6">
   <h3>📹 Video: </h3>
-  <h3> 📅 06/21 </h3>
+
   <h3> 👨‍💻 Create an Agent that learns to play Doom deathmatch </h3>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wLTQRuizVyE?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br> <br>
 
@@ -455,7 +407,7 @@
 <br>
 
 
-<h2>Part 5:  Advantage Actor Critic (A2C)</h2>
+<h2>Part 5:  Advantage Actor Critic (A2C) and Asynchronous Advantage Actor Critic (A3C)</h2>
 <hr/>
 <div class="row">
 <div class="col-lg-6">
@@ -481,11 +433,11 @@
 </div>
 <div class="col-lg-6">
   <h3>📹 Video: </h3>
-  <h3> 📅 07/16 </h3>
+  <h3> 📅 July </h3>
 </div>
 </div>
-<h3> 👨‍💻 Create an Agent that learns to play Outrun</h3>
-<img src="assets/img/video projects/outrun.gif" alt="Vizdoom Deadly corridor"/>
+<h3> 👨‍💻 Create an Agent that learns to play Sonic the Hedgehog</h3>
+<img src="assets/img/sonic.jpg" class="img-fluid" alt="Sonic the Hedgehog"/>
 <br>
 <br>
 <!--<a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Q%20Learning%20with%20FrozenLake.ipynb">
@@ -537,9 +489,8 @@
   <h3> 📅 July </h3>
 </div>
 </div>
-<h3> 👨‍💻 Create an Agent that learns to play walk with Mujoco</h3>
-<img src="assets/img/projects/reduced_mujoco.gif" alt="Mujoco"/>
-<p>Taken from OpenAI </p>
+<h3> 👨‍💻 TBA</h3>
+
 <br>
 <br>
 <!--<a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Q%20Learning%20with%20FrozenLake.ipynb">
@@ -598,10 +549,37 @@
 
     </section>
 
+
+<!-- *********************************************************
+*                       Featured in
+*********************************************************** 
+<section class="container-fluid  hiw-section center fadeInRight" id="featured">
+    <br>
+    <h2> They spoke about us! </h2>
+    <br>
+
+    <div class="row">
+      <div class="col-lg-6">
+
+
+    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMontrealAI%2Fposts%2F596638894014706&width=500" width="500" height="319" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+</div>
+<div class="col-lg-6">
+    <p> The wild week in AI newsletter by Denny Britz </p>
+    
+
+      <a href="https://www.getrevue.co/profile/wildml/issues/the-wild-week-in-ai-83-tensorflow-dev-summit-highlights-world-models-cloud-text-to-speech-and-more-104034">
+              <button type="button" class="btn btn-lg btn-success">Read the newsletter
+              </button>
+          </a>
+</div>
+
+    
+</section> -->
 <!-- *********************************************************
 *                       Keep in Touch section
 *********************************************************** -->
-<section class="container-fluid join-section hiw-section center fadeInRight" data-wow-duration="2s" id="kit">
+<section class="container-fluid hiw-section center fadeInRight" data-wow-duration="2s" id="kit">
     <br>
     <h2> Keep in touch! </h2>
     <br>
