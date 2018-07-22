@@ -1,0 +1,312 @@
+---------------------------------
+| explained_variance | 0.0218   |
+| fps                | 129      |
+| nupdates           | 1        |
+| policy_entropy     | 1.95     |
+| policy_loss        | 0.0949   |
+| time elapsed       | 205      |
+| total_timesteps    | 26624    |
+| value_loss         | 0.0539   |
+---------------------------------
+Saving to ./models/1/model.ckpt
+---------------------------------
+| explained_variance | -0.00318 |
+| fps                | 135      |
+| nupdates           | 10       |
+| policy_entropy     | 1.95     |
+| policy_loss        | 0.0579   |
+| time elapsed       | 1.98e+03 |
+| total_timesteps    | 266240   |
+| value_loss         | 0.0646   |
+---------------------------------
+Saving to ./models/10/model.ckpt
+---------------------------------
+| explained_variance | 0.0439   |
+| fps                | 119      |
+| nupdates           | 20       |
+| policy_entropy     | 1.95     |
+| policy_loss        | 0.0626   |
+| time elapsed       | 3.98e+03 |
+| total_timesteps    | 532480   |
+| value_loss         | 0.0652   |
+---------------------------------
+Saving to ./models/20/model.ckpt
+---------------------------------
+| explained_variance | 0.308    |
+| fps                | 121      |
+| nupdates           | 30       |
+| policy_entropy     | 1.87     |
+| policy_loss        | 0.113    |
+| time elapsed       | 6.15e+03 |
+| total_timesteps    | 798720   |
+| value_loss         | 0.14     |
+---------------------------------
+Saving to ./models/30/model.ckpt
+---------------------------------
+| explained_variance | 0.578    |
+| fps                | 122      |
+| nupdates           | 40       |
+| policy_entropy     | 1.7      |
+| policy_loss        | 0.253    |
+| time elapsed       | 8.4e+03  |
+| total_timesteps    | 1064960  |
+| value_loss         | 0.295    |
+---------------------------------
+Saving to ./models/40/model.ckpt
+---------------------------------
+| explained_variance | 0.743    |
+| fps                | 124      |
+| nupdates           | 50       |
+| policy_entropy     | 1.75     |
+| policy_loss        | 0.2      |
+| time elapsed       | 1.05e+04 |
+| total_timesteps    | 1331200  |
+| value_loss         | 0.185    |
+---------------------------------
+Saving to ./models/50/model.ckpt
+Score  [39.06196]
+ 
+
+---------------------------------
+| explained_variance | 0.685    |
+| fps                | 127      |
+| nupdates           | 60       |
+| policy_entropy     | 1.74     |
+| policy_loss        | 0.478    |
+| time elapsed       | 209      |
+| total_timesteps    | 1597440  |
+| value_loss         | 0.3      |
+---------------------------------
+Saving to ./models/60/model.ckpt
+---------------------------------
+| explained_variance | 0.814    |
+| fps                | 124      |
+| nupdates           | 70       |
+| policy_entropy     | 1.74     |
+| policy_loss        | 0.311    |
+| time elapsed       | 2.25e+03 |
+| total_timesteps    | 1863680  |
+| value_loss         | 0.213    |
+---------------------------------
+Saving to ./models/70/model.ckpt
+---------------------------------
+| explained_variance | 0.788    |
+| fps                | 135      |
+| nupdates           | 80       |
+| policy_entropy     | 1.75     |
+| policy_loss        | 0.377    |
+| time elapsed       | 4.32e+03 |
+| total_timesteps    | 2129920  |
+| value_loss         | 0.295    |
+---------------------------------
+Saving to ./models/80/model.ckpt
+---------------------------------
+| explained_variance | 0.822    |
+| fps                | 134      |
+| nupdates           | 90       |
+| policy_entropy     | 1.76     |
+| policy_loss        | 0.301    |
+| time elapsed       | 6.32e+03 |
+| total_timesteps    | 2396160  |
+| value_loss         | 0.18     |
+---------------------------------
+Saving to ./models/90/model.ckpt
+---------------------------------
+| explained_variance | 0.848    |
+| fps                | 134      |
+| nupdates           | 100      |
+| policy_entropy     | 1.74     |
+| policy_loss        | 0.301    |
+| time elapsed       | 8.3e+03  |
+| total_timesteps    | 2662400  |
+| value_loss         | 0.226    |
+---------------------------------
+Saving to ./models/100/model.ckpt
+---------------------------------
+| explained_variance | 0.881    |
+| fps                | 134      |
+| nupdates           | 110      |
+| policy_entropy     | 1.78     |
+| policy_loss        | 0.286    |
+| time elapsed       | 1.03e+04 |
+| total_timesteps    | 2928640  |
+| value_loss         | 0.209    |
+---------------------------------
+Saving to ./models/110/model.ckpt
+---------------------------------
+| explained_variance | 0.879    |
+| fps                | 135      |
+| nupdates           | 120      |
+| policy_entropy     | 1.73     |
+| policy_loss        | 0.389    |
+| time elapsed       | 1.23e+04 |
+| total_timesteps    | 3194880  |
+| value_loss         | 0.271    |
+---------------------------------
+Saving to ./models/120/model.ckpt
+---------------------------------
+| explained_variance | 0.885    |
+| fps                | 134      |
+| nupdates           | 130      |
+| policy_entropy     | 1.75     |
+| policy_loss        | 0.32     |
+| time elapsed       | 1.43e+04 |
+| total_timesteps    | 3461120  |
+| value_loss         | 0.237    |
+---------------------------------
+Saving to ./models/130/model.ckpt
+---------------------------------
+| explained_variance | 0.882    |
+| fps                | 131      |
+| nupdates           | 140      |
+| policy_entropy     | 1.79     |
+| policy_loss        | 0.278    |
+| time elapsed       | 1.63e+04 |
+| total_timesteps    | 3727360  |
+| value_loss         | 0.181    |
+---------------------------------
+Saving to ./models/140/model.ckpt
+---------------------------------
+| explained_variance | 0.914    |
+| fps                | 135      |
+| nupdates           | 150      |
+| policy_entropy     | 1.76     |
+| policy_loss        | 0.266    |
+| time elapsed       | 1.83e+04 |
+| total_timesteps    | 3993600  |
+| value_loss         | 0.22     |
+---------------------------------
+Saving to ./models/150/model.ckpt
+---------------------------------
+| explained_variance | 0.896    |
+| fps                | 135      |
+| nupdates           | 160      |
+| policy_entropy     | 1.76     |
+| policy_loss        | 0.293    |
+| time elapsed       | 2.03e+04 |
+| total_timesteps    | 4259840  |
+| value_loss         | 0.251    |
+---------------------------------
+Saving to ./models/160/model.ckpt
+---------------------------------
+| explained_variance | 0.909    |
+| fps                | 134      |
+| nupdates           | 170      |
+| policy_entropy     | 1.79     |
+| policy_loss        | 0.217    |
+| time elapsed       | 2.23e+04 |
+| total_timesteps    | 4526080  |
+| value_loss         | 0.165    |
+---------------------------------
+Saving to ./models/170/model.ckpt
+---------------------------------
+| explained_variance | 0.909    |
+| fps                | 134      |
+| nupdates           | 180      |
+| policy_entropy     | 1.75     |
+| policy_loss        | 0.297    |
+| time elapsed       | 2.42e+04 |
+| total_timesteps    | 4792320  |
+| value_loss         | 0.232    |
+---------------------------------
+Saving to ./models/180/model.ckpt
+---------------------------------
+| explained_variance | 0.916    |
+| fps                | 134      |
+| nupdates           | 190      |
+| policy_entropy     | 1.76     |
+| policy_loss        | 0.324    |
+| time elapsed       | 2.62e+04 |
+| total_timesteps    | 5058560  |
+| value_loss         | 0.237    |
+---------------------------------
+Saving to ./models/190/model.ckpt
+---------------------------------
+| explained_variance | 0.926    |
+| fps                | 133      |
+| nupdates           | 200      |
+| policy_entropy     | 1.8      |
+| policy_loss        | 0.244    |
+| time elapsed       | 2.82e+04 |
+| total_timesteps    | 5324800  |
+| value_loss         | 0.186    |
+---------------------------------
+Saving to ./models/200/model.ckpt
+---------------------------------
+| explained_variance | 0.923    |
+| fps                | 134      |
+| nupdates           | 210      |
+| policy_entropy     | 1.79     |
+| policy_loss        | 0.276    |
+| time elapsed       | 3.02e+04 |
+| total_timesteps    | 5591040  |
+| value_loss         | 0.202    |
+---------------------------------
+Saving to ./models/210/model.ckpt
+---------------------------------
+| explained_variance | 0.906    |
+| fps                | 134      |
+| nupdates           | 220      |
+| policy_entropy     | 1.8      |
+| policy_loss        | 0.314    |
+| time elapsed       | 3.22e+04 |
+| total_timesteps    | 5857280  |
+| value_loss         | 0.216    |
+---------------------------------
+Saving to ./models/220/model.ckpt
+---------------------------------
+| explained_variance | 0.935    |
+| fps                | 134      |
+| nupdates           | 230      |
+| policy_entropy     | 1.78     |
+| policy_loss        | 0.149    |
+| time elapsed       | 3.42e+04 |
+| total_timesteps    | 6123520  |
+| value_loss         | 0.18     |
+---------------------------------
+Saving to ./models/230/model.ckpt
+---------------------------------
+| explained_variance | 0.932    |
+| fps                | 134      |
+| nupdates           | 240      |
+| policy_entropy     | 1.77     |
+| policy_loss        | -0.0722  |
+| time elapsed       | 3.62e+04 |
+| total_timesteps    | 6389760  |
+| value_loss         | 0.242    |
+---------------------------------
+Saving to ./models/240/model.ckpt
+Score  [51.971977]
+---------------------------------
+| explained_variance | 0.939    |
+| fps                | 134      |
+| nupdates           | 250      |
+| policy_entropy     | 1.74     |
+| policy_loss        | -0.32    |
+| time elapsed       | 3.82e+04 |
+| total_timesteps    | 6656000  |
+| value_loss         | 0.272    |
+---------------------------------
+Saving to ./models/250/model.ckpt
+---------------------------------
+| explained_variance | 0.927    |
+| fps                | 135      |
+| nupdates           | 260      |
+| policy_entropy     | 1.82     |
+| policy_loss        | -0.401   |
+| time elapsed       | 4.02e+04 |
+| total_timesteps    | 6922240  |
+| value_loss         | 0.304    |
+---------------------------------
+Saving to ./models/260/model.ckpt
+----------------------------------
+| explained_variance | 0.941     |
+| fps                | 136       |
+| nupdates           | 270       |
+| policy_entropy     | 0.000864  |
+| policy_loss        | -0.000507 |
+| time elapsed       | 4.22e+04  |
+| total_timesteps    | 7188480   |
+| value_loss         | 0.633     |
+----------------------------------
+Saving to ./models/270/model.ckpt
