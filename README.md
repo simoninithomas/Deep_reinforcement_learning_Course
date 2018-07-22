@@ -28,7 +28,7 @@
 
 ## Part 5: Advantage Advantage Actor Critic (A2C) <br>
 ### 📜 [ARTICLE (📅 July)] <br>
-### 📹 [Create an Agent that learns to play Outrun (📅 July)] <br><br>
+### 📹 [Create an Agent that learns to play Sonic](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/A2C%20with%20Sonic%20the%20Hedgehog) <br><br>
 
 ## Part 6: Asynchronous Advantage Actor Critic (A3C) <br>
 ### 📜 [ARTICLE (📅 July)] <br>
