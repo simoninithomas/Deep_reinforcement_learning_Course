@@ -27,14 +27,10 @@
 ### 📹 [Create an Agent that learns to play Doom Deadly corridor](https://youtu.be/-Ynjw0Vl3i4) <br><br>
 
 ## Part 5: Advantage Advantage Actor Critic (A2C) <br>
-### 📜 [ARTICLE (📅 July)] <br>
-### 📹 [Create an Agent that learns to play Sonic](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/A2C%20with%20Sonic%20the%20Hedgehog) <br><br>
+### 📜 [ARTICLE](https://medium.freecodecamp.org/an-intro-to-advantage-actor-critic-methods-lets-play-sonic-the-hedgehog-86d6240171d) <br>
+### 📹 [Create an Agent that learns to play Sonic] <br><br>
 
-## Part 6: Asynchronous Advantage Actor Critic (A3C) <br>
-### 📜 [ARTICLE (📅 July)] <br>
-### 📹 [Create an Agent that learns to play Michael Jackson's Moonwalker (📅 July)] <br><br>
-
-## Part 7: Proximal Policy Gradients <br>
+## Part 6: Proximal Policy Gradients <br>
 ### 📜 [ARTICLE (📅 July)]<br>
 ### 📹 [Create an Agent that learns to play walk with Mujoco (📅 July)]<br><br>
 
