@@ -31,8 +31,8 @@
 ### 📹 [Create an Agent that learns to play Sonic] <br><br>
 
 ## Part 6: Proximal Policy Gradients <br>
-### 📜 [ARTICLE (📅 July)]<br>
-### 📹 [Create an Agent that learns to play walk with Mujoco (📅 July)]<br><br>
+### 📜 [ARTICLE (📅 August)]<br>
+### 📹 [Create an Agent that learns to play Sonic the Hedgehog 2 and 3 (📅 August)]<br><br>
 
 ## Part 8: TBA <br> <br>
 ## Any questions 👨‍💻
