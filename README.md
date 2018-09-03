@@ -1,4 +1,4 @@
-# [Deep Reinforcement Learning Course with Tensorflow](https://simoninithomas.github.io/Deep_reinforcement_learning_Course/)
+# [Deep Reinforcement Learning Course](https://simoninithomas.github.io/Deep_reinforcement_learning_Course/)
 <img src="https://raw.githubusercontent.com/simoninithomas/Deep_reinforcement_learning_Course/master/docs/assets/img/DRLC%20Environments.png" alt="Deep Reinforcement Course with Tensorflow" style="width: 500px;"/>
 
 <p>  Deep Reinforcement Learning Course is a free series of blog posts and videos 🆕 about Deep Reinforcement Learning, where we'll <b>learn the main algorithms, and how to implement them with Tensorflow.</b>
@@ -28,13 +28,14 @@
 
 ## Part 5: Advantage Advantage Actor Critic (A2C) <br>
 ### 📜 [ARTICLE](https://medium.freecodecamp.org/an-intro-to-advantage-actor-critic-methods-lets-play-sonic-the-hedgehog-86d6240171d) <br>
-### 📹 [Create an Agent that learns to play Sonic] <br><br>
+### 📹 [Create an Agent that learns to play Sonic](https://youtu.be/GCfUdkCL7FQ) <br><br>
 
 ## Part 6: Proximal Policy Gradients <br>
-### 📜 [ARTICLE (📅 August)]<br>
-### 📹 [Create an Agent that learns to play Sonic the Hedgehog 2 and 3 (📅 August)]<br><br>
+### 📜 [ARTICLE](https://towardsdatascience.com/proximal-policy-optimization-ppo-with-sonic-the-hedgehog-2-and-3-c9c21dbed5e)<br>
+### 👨‍💻 [Create an Agent that learns to play Sonic the Hedgehog 2 and 3 ](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/PPO%20with%20Sonic%20the%20Hedgehog) <br><br>
 
-## Part 8: TBA <br> <br>
+## Part 7: Curiosity Driven Learning Part I Theory <br> <br>
+### 📜 [ARTICLE (📅 September)] 
 ## Any questions 👨‍💻
 <p> If you have any questions, feel free to ask me: </p>
 <p> 📧: <a href="mailto:hello@simoninithomas.com">hello@simoninithomas.com</a>  </p>
