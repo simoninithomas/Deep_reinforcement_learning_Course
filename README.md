@@ -35,7 +35,7 @@
 ### 👨‍💻 [Create an Agent that learns to play Sonic the Hedgehog 2 and 3 ](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/PPO%20with%20Sonic%20the%20Hedgehog) <br><br>
 
 ## Part 7: Curiosity Driven Learning Part I Theory <br> <br>
-### 📜 [ARTICLE (📅 September)] 
+### 📜 [ARTICLE (📅 October)] 
 ## Any questions 👨‍💻
 <p> If you have any questions, feel free to ask me: </p>
 <p> 📧: <a href="mailto:hello@simoninithomas.com">hello@simoninithomas.com</a>  </p>
