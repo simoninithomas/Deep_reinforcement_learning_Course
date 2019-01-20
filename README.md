@@ -1,5 +1,5 @@
 # [Deep Reinforcement Learning Course](https://simoninithomas.github.io/Deep_reinforcement_learning_Course/)
-# ⚠️ I'm currently updating the implementations (December (some delay due to job interviews)) with Tensorflow and PyTorch.
+# ⚠️ I'm currently updating the implementations (January (some delay due to job interviews)) with Tensorflow and PyTorch.
 <img src="https://raw.githubusercontent.com/simoninithomas/Deep_reinforcement_learning_Course/master/docs/assets/img/DRLC%20Environments.png" alt="Deep Reinforcement Course with Tensorflow" style="width: 500px;"/>
 
 <p>  Deep Reinforcement Learning Course is a free series of blog posts and videos 🆕 about Deep Reinforcement Learning, where we'll <b>learn the main algorithms, and how to implement them with Tensorflow.</b>
@@ -36,7 +36,11 @@
 ### 👨‍💻 [Create an Agent that learns to play Sonic the Hedgehog 2 and 3 ](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/PPO%20with%20Sonic%20the%20Hedgehog) <br><br>
 
 ## Part 7: Curiosity Driven Learning made easy Part I <br> <br>
-### 📜 [ARTICLE](https://towardsdatascience.com/curiosity-driven-learning-made-easy-part-i-d3e5a2263359)
+### 📜 [ARTICLE](https://towardsdatascience.com/curiosity-driven-learning-made-easy-part-i-d3e5a2263359) <br> <br>
+    
+## Part 8: Random Network Distillation with PyTorch  <br>
+## 👨‍💻 [A trained RND agent that learned to play Montezuma's revenge (21 hours of training with a Tesla K80](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/RND Montezuma's revenge PyTorch)  <br> <br>
+
 ## Any questions 👨‍💻
 <p> If you have any questions, feel free to ask me: </p>
 <p> 📧: <a href="mailto:hello@simoninithomas.com">hello@simoninithomas.com</a>  </p>
@@ -44,7 +48,7 @@
 <p> 🌐 : https://simoninithomas.github.io/Deep_reinforcement_learning_Course/ </p>
 <p> Twitter: <a href="https://twitter.com/ThomasSimonini">@ThomasSimonini</a> </p>
 <p> Don't forget to <b> follow me on <a href="https://twitter.com/ThomasSimonini">twitter</a>, <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course">github</a> and <a href="https://medium.com/@thomassimonini">Medium</a> to be alerted of the new articles that I publish </b></p>
-    
+
 ## How to help  🙌
 3 ways:
 
