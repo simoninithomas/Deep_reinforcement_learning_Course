@@ -1,5 +1,5 @@
 # [Deep Reinforcement Learning Course](https://simoninithomas.github.io/Deep_reinforcement_learning_Course/)
-# ⚠️ I'm currently updating the implementations (January (some delay due to job interviews)) with Tensorflow and PyTorch.
+# ⚠️ I'm currently updating the implementations (January and February (some delay due to job interviews)) with Tensorflow and PyTorch.
 <img src="https://raw.githubusercontent.com/simoninithomas/Deep_reinforcement_learning_Course/master/docs/assets/img/DRLC%20Environments.png" alt="Deep Reinforcement Course with Tensorflow" style="width: 500px;"/>
 
 <p>  Deep Reinforcement Learning Course is a free series of blog posts and videos 🆕 about Deep Reinforcement Learning, where we'll <b>learn the main algorithms, and how to implement them with Tensorflow.</b>
@@ -39,7 +39,7 @@
 ### 📜 [ARTICLE](https://towardsdatascience.com/curiosity-driven-learning-made-easy-part-i-d3e5a2263359) <br> <br>
     
 ## Part 8: Random Network Distillation with PyTorch  <br>
-## 👨‍💻 [A trained RND agent that learned to play Montezuma's revenge (21 hours of training with a Tesla K80](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/RND Montezuma's revenge PyTorch)  <br> <br>
+## 👨‍💻 [A trained RND agent that learned to play Montezuma's revenge (21 hours of training with a Tesla K80](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/RND%20Montezuma's%20revenge%20PyTorch)  <br> <br>
 
 ## Any questions 👨‍💻
 <p> If you have any questions, feel free to ask me: </p>
