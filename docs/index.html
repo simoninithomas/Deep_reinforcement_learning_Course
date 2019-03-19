@@ -1,512 +1,553 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116674445-1"></script>
-<script>
-  function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-116674445-1");
-</script>
-  
-<!-- Hotjar Tracking Code for https://simoninithomas.github.io/deep_reinforcement_learning_course/ -->
-<script>
-  !function(t,h,e,j,s,n){t.hj=t.hj||function(){(t.hj.q=t.hj.q||[]).push(arguments)},t._hjSettings={hjid:833802,hjsv:6},s=h.getElementsByTagName("head")[0],(n=h.createElement("script")).async=1,n.src="https://static.hotjar.com/c/hotjar-"+t._hjSettings.hjid+".js?sv="+t._hjSettings.hjsv,s.appendChild(n)}(window,document);
-</script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116674445-1"></script>
+  <script>
+    function gtag() { dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-116674445-1");
+  </script>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Deep Reinforcement Learning Course</title>
+  <!-- Hotjar Tracking Code for https://simoninithomas.github.io/deep_reinforcement_learning_course/ -->
+  <script>
+    !function (t, h, e, j, s, n) { t.hj = t.hj || function () { (t.hj.q = t.hj.q || []).push(arguments) }, t._hjSettings = { hjid: 833802, hjsv: 6 }, s = h.getElementsByTagName("head")[0], (n = h.createElement("script")).async = 1, n.src = "https://static.hotjar.com/c/hotjar-" + t._hjSettings.hjid + ".js?sv=" + t._hjSettings.hjsv, s.appendChild(n) }(window, document);
+  </script>
 
-    <meta name="description" content="Deep Reinforcement Learning Course is a free series of blog posts and videos about Deep Reinforcement Learning, where we'll learn the main algorithms, and how to implement them in Tensorflow.">
-    <meta name="author" content="SIMONINI Thomas">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS -->
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Deep Reinforcement Learning Course</title>
 
-    <!-- Custom CSS -->
-    <link href="assets/css/style.css" rel="stylesheet">
+  <meta name="description"
+    content="Deep Reinforcement Learning Course is a free series of blog posts and videos about Deep Reinforcement Learning, where we'll learn the main algorithms, and how to implement them in Tensorflow.">
+  <meta name="author" content="SIMONINI Thomas">
 
-    <!-- Font Awesome new -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <!-- CSS -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
-    <!-- Font awesome older for compatibilities issues -->
-    <script src="https://use.fontawesome.com/8b03d69eb0.js"></script>
-    
-    <!-- Mailchimp -->
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-    <script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"d58d585621531bd51fd457665","lid":"4519ef8bed"}) })</script>
+  <!-- Custom CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- Hello bar -->
-    <script src="https://my.hellobar.com/1eb7989f340a0d659ecf445943f12c57d94b7d88.js" type="text/javascript" charset="utf-8" async="async"></script>
+  <!-- Font Awesome new -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <!-- Font awesome older for compatibilities issues -->
+  <script src="https://use.fontawesome.com/8b03d69eb0.js"></script>
+
+  <!-- Mailchimp -->
+  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js"
+    data-dojo-config="usePlainJson: true, isDebug: false"></script>
+  <script
+    type="text/javascript">require(["mojo/signup-forms/Loader"], function (L) { L.start({ "baseUrl": "mc.us11.list-manage.com", "uuid": "d58d585621531bd51fd457665", "lid": "4519ef8bed" }) })</script>
+
+  <!-- Hello bar -->
+  <script src="https://my.hellobar.com/1eb7989f340a0d659ecf445943f12c57d94b7d88.js" type="text/javascript"
+    charset="utf-8" async="async"></script>
 </head>
 
 <body>
 
-<!-- *********************************************************
+  <!-- *********************************************************
 *                       Header section
 *********************************************************** -->
-<div class="container-fluid header-section">
+  <div class="container-fluid header-section">
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#">Deep Reinforcement Learning Course 🕹️</a>
+      </button>
+      <a class="navbar-brand" href="#">Deep Reinforcement Learning Course 🕹️</a>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
 
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">
-              <a class="nav-link" href="#syllabus" target="_self"><button type="button" class="btn  btn-success">Start learning now
-            </button></a>
-              
+            <a class="nav-link" href="#syllabus" target="_self"><button type="button" class="btn  btn-success">Start
+                learning now
+              </button></a>
+
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#hth" target="_self">How to help?</a>
+            <a class="nav-link" href="#hth" target="_self">How to help?</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#kit" target="_self">Keep in touch</a>
+            <a class="nav-link" href="#kit" target="_self">Keep in touch</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="https://www.simoninithomas.com">About me</a>
+            <a class="nav-link" href="https://www.simoninithomas.com">About me</a>
           </li>
-      </ul>
-  </div>
-</nav>
-
-
-<div class="above-background-video container">
-    <br>
-    <br>
-    <h1> A Free course in Deep Reinforcement Learning from beginner to expert.</h1>
-
-<br>
-      <p> Some of the agents you'll implement during this course: </p>
-
-        	<div class="catch-image">
-          	<img  src="assets/img/DRLC Environments.jpg" alt="Deep Reinforcement Learning Course with Tensorflow"/>
-
-</div>
-<p> This course is a series of articles and videos where <b>you'll master the skills and architectures you need, to
-  become a deep reinforcement learning expert.</b>
-<br><br>
-  You'll <b>build a strong professional portfolio</b> by implementing awesome agents with Tensorflow that
-  learns to play Space invaders, Doom, Sonic the hedgehog and more!
-</p>
-
-<div class='row'>
-<div class="col-lg-2"></div>
-<div class="col-lg-4">
-     <a class="nav-link" href="#syllabus" target="_self">
-            <button type="button" class="btn btn-lg btn-success">Start learning now
-            </button>
-        </a>
-        </div>
-          <div class="col-lg-4">
-        <a class="nav-link" href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course" >
-               <button type="button" class="btn btn-lg btn-info">See the Github repo
-    <i class="fab fa-github"></i></i>
-               </button>
-           </a>
-      </div>
-
-</div>
-<br/>
-<br/>
-</div>
-<br><br>
-</div>
-</section>
-
-
-<!-- *********************************************************
-                      Social proofs
-*********************************************************** -->
-<section class="container card-overlay">
-<div class="card card-shadow">
-  <div class="card-body">
-    <div class="row">
-      <div class="col-lg-4 social-proof center">
-    <a href="https://medium.freecodecamp.org/@thomassimonini"> <i class="fab fa-medium fa-5x" style="color:#00ab6c;"></i></a>
-        <ul>
-          <hr/>
-          <li>54,597 Readers</li>
-          <hr/>
-          <li> 4,000 Reads/week </li>
-          <hr/>
-          <li>33,498 Claps</li>
-          <hr/>
-          <li>3,598 Fans</li>
-<hr/>
-      </p>
-      </div>
-
-      <div class="col-lg-4 social-proof center">
-    <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course"> <i class="fab fa-github fa-5x" style="color: #333;"></i></a>
-        <ul>
-          <hr/>
-          <li>737 <i class="fas fa-star"></i> </li>
-          <hr/>
         </ul>
       </div>
-      <div class="col-lg-4 social-proof center">
-        <a href="https://www.youtube.com/channel/UC8XuSf1eD9AF8x8J19ha5og"> <i class="fa fa-youtube-square fa-5x" style="color:#ff0000;"></i></a>
-        <ul>
-          <hr/>
+    </nav>
 
-        <li>19,904 Views</li>
-        <hr/>
-      </ul>
+
+    <div class="above-background-video container">
+      <br>
+      <br>
+      <h1> A Free course in Deep Reinforcement Learning from beginner to expert.</h1>
+
+      <br>
+      <p> Some of the agents you'll implement during this course: </p>
+
+      <div class="catch-image">
+        <img src="assets/img/DRLC Environments.jpg" alt="Deep Reinforcement Learning Course with Tensorflow" />
+
       </div>
-  </div>
-</div>
-</div>
-</div>
-</section>
+      <p> This course is a series of articles and videos where <b>you'll master the skills and architectures you need,
+          to
+          become a deep reinforcement learning expert.</b>
+        <br><br>
+        You'll <b>build a strong professional portfolio</b> by implementing awesome agents with Tensorflow that
+        learns to play Space invaders, Doom, Sonic the hedgehog and more!
+      </p>
 
-<!-- *********************************************************
+      <div class='row'>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-4">
+          <a class="nav-link" href="#syllabus" target="_self">
+            <button type="button" class="btn btn-lg btn-success">Start learning now
+            </button>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a class="nav-link" href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course">
+            <button type="button" class="btn btn-lg btn-info">See the Github repo
+              <i class="fab fa-github"></i></i>
+            </button>
+          </a>
+        </div>
+
+      </div>
+      <br />
+      <br />
+    </div>
+    <br><br>
+  </div>
+  </section>
+
+
+  <!-- *********************************************************
+                      Social proofs
+*********************************************************** -->
+  <section class="container card-overlay">
+    <div class="card card-shadow">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-lg-4 social-proof center">
+            <a href="https://medium.freecodecamp.org/@thomassimonini"> <i class="fab fa-medium fa-5x"
+                style="color:#00ab6c;"></i></a>
+            <ul>
+              <hr />
+              <li>54,597 Readers</li>
+              <hr />
+              <li> 4,000 Reads/week </li>
+              <hr />
+              <li>33,498 Claps</li>
+              <hr />
+              <li>3,598 Fans</li>
+              <hr />
+              </p>
+          </div>
+
+          <div class="col-lg-4 social-proof center">
+            <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course"> <i
+                class="fab fa-github fa-5x" style="color: #333;"></i></a>
+            <ul>
+              <hr />
+              <li>737 <i class="fas fa-star"></i> </li>
+              <hr />
+            </ul>
+          </div>
+          <div class="col-lg-4 social-proof center">
+            <a href="https://www.youtube.com/channel/UC8XuSf1eD9AF8x8J19ha5og"> <i class="fa fa-youtube-square fa-5x"
+                style="color:#ff0000;"></i></a>
+            <ul>
+              <hr />
+
+              <li>19,904 Views</li>
+              <hr />
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- *********************************************************
 *                      Part 1
 *********************************************************** -->
-<section class="syllabus" id="syllabus">
-  <div class="step1">
-    <div class="container">
-    <br>
-    <br>
-    <br>
-    <h2>Step 1: What is Deep Reinforcement Learning?</h2>
-    <hr/>
+  <section class="syllabus" id="syllabus">
+    <div class="step1">
+      <div class="container">
+        <br>
+        <br>
+        <br>
+        <h2>Step 1: What is Deep Reinforcement Learning?</h2>
+        <hr />
 
-    <a href="https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419">
-            <button type="button" class="btn btn-lg btn-success">Read the article
-            </button>
+        <a href="https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419">
+          <button type="button" class="btn btn-lg btn-success">Read the article
+          </button>
         </a>
 
-    <p>  You'll learn <b>all the essentials concepts you need to master before diving on the Deep Reinforcement Learning algorithms.</b>
-      <ul>
-        <li>What’s Deep Reinforcement Learning and what is its process?</li>
-        <li>Why rewards is the central idea in RL?</li>
-        <li>What’s the 3 approaches of Reinforcement Learning?</li>
-      </ul>
-    </p>
-    <br>
-    <h3> 📚 More resources:  </h3>
-    <ul class="resources">
-      <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 1: Introduction</a> </li>
-    </ul>
-</div>
-</div>
+        <p> You'll learn <b>all the essentials concepts you need to master before diving on the Deep Reinforcement
+            Learning algorithms.</b>
+          <ul>
+            <li>What’s Deep Reinforcement Learning and what is its process?</li>
+            <li>Why rewards is the central idea in RL?</li>
+            <li>What’s the 3 approaches of Reinforcement Learning?</li>
+          </ul>
+        </p>
+        <br>
+        <h3> 📚 More resources: </h3>
+        <ul class="resources">
+          <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An
+              Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 1: Introduction</a> </li>
+        </ul>
+      </div>
+    </div>
 
-<!-- *********************************************************
+    <!-- *********************************************************
 *                       Step 2
 *********************************************************** -->
-<div class="step2  hiw-section">
-  <div class="container">
-<br>
-<h2>Step 2: Q-Learning</h2>
-<hr/>
-<div class="row">
-<div class="col-lg-6">
-  <h3>📜 Course: </h3>
-  <p>  You'll learn the <b>Q-learning algorithm and how to implement it with Numpy.</b> </p>
-  <a href="https://medium.freecodecamp.org/diving-deeper-into-reinforcement-learning-with-q-learning-c18d0db58efe">
+    <div class="step2  hiw-section">
+      <div class="container">
+        <br>
+        <h2>Step 2: Q-Learning</h2>
+        <hr />
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>📜 Course: </h3>
+            <p> You'll learn the <b>Q-learning algorithm and how to implement it with Numpy.</b> </p>
+            <a
+              href="https://medium.freecodecamp.org/diving-deeper-into-reinforcement-learning-with-q-learning-c18d0db58efe">
               <button type="button" class="btn btn-lg btn-success">Read the article
               </button>
-          </a>
-
-
-<br>
-    <br>
-    <h3> 👨‍💻 Create an Agent that learns to play FrozenLake </h3>
-    <img src="assets/img/projects/projectw2.gif" alt="FrozenLake"/>
-    <br>
-    <br>
-    <h3> </h3>
-
-
-            <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/FrozenLake/Q%20Learning%20with%20FrozenLake.ipynb">
-                <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
-                </button>
             </a>
 
 
-    <br>
-</div>
-<div class="col-lg-6">
-  <h3>📹 Video: </h3>
+            <br>
+            <br>
+            <h3> 👨‍💻 Create an Agent that learns to play FrozenLake </h3>
+            <img src="assets/img/projects/projectw2.gif" alt="FrozenLake" />
+            <br>
+            <br>
+            <h3> </h3>
 
-    <p>  You'll learn <b>how to implement the Q-learning algorithm with Numpy.</b> </p>
-  <h3> 👨‍💻 Create an Agent that learns to play Taxi-v2 </h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/q2ZOEFAaaI0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-  <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Taxi-v2/Q%20Learning%20with%20OpenAI%20Taxi-v2%20video%20version.ipynb">
-      <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
-  </a>
+            <a
+              href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/FrozenLake/Q%20Learning%20with%20FrozenLake.ipynb">
+              <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
+              </button>
+            </a>
 
-</div>
-</div>
-<br>
 
-    <h3> 📚 More resources:  </h3>
-    <ul>
-      <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 6 (Part 6.5)</a> </li>
-      <li> <a href="https://www.youtube.com/watch?v=aCEvtRtNO-M">Q learning explained by Siraj Raval</a> </li>
-    </ul>
-    <br>
-  </div>
-</div>
+            <br>
+          </div>
+          <div class="col-lg-6">
+            <h3>📹 Video: </h3>
 
-<!-- *********************************************************
+            <p> You'll learn <b>how to implement the Q-learning algorithm with Numpy.</b> </p>
+            <h3> 👨‍💻 Create an Agent that learns to play Taxi-v2 </h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/q2ZOEFAaaI0" frameborder="0"
+              allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+            <a
+              href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Taxi-v2/Q%20Learning%20with%20OpenAI%20Taxi-v2%20video%20version.ipynb">
+              <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
+            </a>
+
+          </div>
+        </div>
+        <br>
+
+        <h3> 📚 More resources: </h3>
+        <ul>
+          <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An
+              Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 6 (Part 6.5)</a> </li>
+          <li> <a href="https://www.youtube.com/watch?v=aCEvtRtNO-M">Q learning explained by Siraj Raval</a> </li>
+        </ul>
+        <br>
+      </div>
+    </div>
+
+    <!-- *********************************************************
 *                      Part 3
 *********************************************************** -->
-<div class="step3">
-  <div class="container">
-<br>
-<h2>Step 3: Deep Q-Learning</h2>
-<hr/>
-<div class="row">
-<div class="col-lg-6">
-  <h3>📜 Course: </h3>
-  <p> You'll learn <b> the Deep Q Learning algorithm and how to implement it with Tensorflow.</b> </p>
-  <a href="https://medium.freecodecamp.org/an-introduction-to-deep-q-learning-lets-play-doom-54d02d8017d8">
+    <div class="step3">
+      <div class="container">
+        <br>
+        <h2>Step 3: Deep Q-Learning</h2>
+        <hr />
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>📜 Course: </h3>
+            <p> You'll learn <b> the Deep Q Learning algorithm and how to implement it with Tensorflow.</b> </p>
+            <a href="https://medium.freecodecamp.org/an-introduction-to-deep-q-learning-lets-play-doom-54d02d8017d8">
               <button type="button" class="btn btn-lg btn-success">Read the article
               </button>
-          </a>
+            </a>
 
 
-<br>
-    <br>
-    <h3> 👨‍💻 An Agent that plays Doom and kill enemies </h3>
-    <img class="img-fluid" src="assets/img/doom.jpg" alt="Doom"/>
-    <br>
-    <br>
-    <h3> </h3>
+            <br>
+            <br>
+            <h3> 👨‍💻 An Agent that plays Doom and kill enemies </h3>
+            <img class="img-fluid" src="assets/img/doom.jpg" alt="Doom" />
+            <br>
+            <br>
+            <h3> </h3>
 
 
-    <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Deep%20Q%20Learning/Doom/Deep%20Q%20learning%20with%20Doom.ipynb">
-    <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
-    </button>
-</a>
+            <a
+              href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Deep%20Q%20Learning/Doom/Deep%20Q%20learning%20with%20Doom.ipynb">
+              <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
+              </button>
+            </a>
 
 
-    <br>
-</div>
-<div class="col-lg-6">
-  <h3>📹 Video: </h3>
-  <h3> 👨‍💻 Create an Agent that learns to play Atari Space Invaders </h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/gCJyVX98KJ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Deep%20Q%20Learning/Space%20Invaders/DQN%20Atari%20Space%20Invaders.ipynb">
-      <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
-      </button>
-  </a>
-</div>
-</div>
-    <h3> 📚 More resources:  </h3>
-    <ul>
-      <li> <a href="https://www.youtube.com/watch?v=79pmNdyxEGo">Deep Q Learning for Video Games by Siraj Raval</a> </li>
-    </ul>
-    <br>
-</div>
-</div>
+            <br>
+          </div>
+          <div class="col-lg-6">
+            <h3>📹 Video: </h3>
+            <h3> 👨‍💻 Create an Agent that learns to play Atari Space Invaders </h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gCJyVX98KJ4" frameborder="0"
+              allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <a
+              href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Deep%20Q%20Learning/Space%20Invaders/DQN%20Atari%20Space%20Invaders.ipynb">
+              <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
+              </button>
+            </a>
+          </div>
+        </div>
+        <h3> 📚 More resources: </h3>
+        <ul>
+          <li> <a href="https://www.youtube.com/watch?v=79pmNdyxEGo">Deep Q Learning for Video Games by Siraj Raval</a>
+          </li>
+        </ul>
+        <br>
+      </div>
+    </div>
 
-<!-- *********************************************************
+    <!-- *********************************************************
 *                      Part 3+
 *********************************************************** -->
-<div class="step3p  hiw-section">
-  <div class="container">
-<br>
-<h2>Step 3+: Improvements in Deep Q Learning</h2>
-<hr/>
-<div class="row">
-<div class="col-lg-6">
-  <h3>📜 Course: </h3>
-  <p>  You'll learn the <b>latests improvements in Deep Q Learning (Dueling Double DQN, Prioritized Experience Replay and fixed q-targets) and how to implement them with Tensorflow.</b> </p>
-  <a href="https://medium.freecodecamp.org/improvements-in-deep-q-learning-dueling-double-dqn-prioritized-experience-replay-and-fixed-58b130cc5682">
+    <div class="step3p  hiw-section">
+      <div class="container">
+        <br>
+        <h2>Step 3+: Improvements in Deep Q Learning</h2>
+        <hr />
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>📜 Course: </h3>
+            <p> You'll learn the <b>latests improvements in Deep Q Learning (Dueling Double DQN, Prioritized Experience
+                Replay and fixed q-targets) and how to implement them with Tensorflow.</b> </p>
+            <a
+              href="https://medium.freecodecamp.org/improvements-in-deep-q-learning-dueling-double-dqn-prioritized-experience-replay-and-fixed-58b130cc5682">
               <button type="button" class="btn btn-lg btn-success">Read the article
               </button>
-          </a>
-<br>
-    <br>
+            </a>
+            <br>
+            <br>
 
 
 
-            <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Dueling%20Double%20DQN%20with%20PER%20and%20fixed-q%20targets/Dueling%20Deep%20Q%20Learning%20with%20Doom%20(%2B%20double%20DQNs%20and%20Prioritized%20Experience%20Replay).ipynb">
-                <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
-                </button>
+            <a
+              href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Dueling%20Double%20DQN%20with%20PER%20and%20fixed-q%20targets/Dueling%20Deep%20Q%20Learning%20with%20Doom%20(%2B%20double%20DQNs%20and%20Prioritized%20Experience%20Replay).ipynb">
+              <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
+              </button>
             </a>
 
-                <br>
-</div>
-<div class="col-lg-6">
-  <h3>📹 Video: </h3>
-    <p>  You'll learn the <b>latests improvements in Deep Q Learning (Dueling Double DQN, Prioritized Experience Replay and fixed q-targets) and how to implement them with Tensorflow.</b> </p>
+            <br>
+          </div>
+          <div class="col-lg-6">
+            <h3>📹 Video: </h3>
+            <p> You'll learn the <b>latests improvements in Deep Q Learning (Dueling Double DQN, Prioritized Experience
+                Replay and fixed q-targets) and how to implement them with Tensorflow.</b> </p>
+          </div>
+        </div>
+        <h3> 👨‍💻 Create an Agent that learns to play Doom Deadly corridor</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-Ynjw0Vl3i4?showinfo=0" frameborder="0"
+          allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br>
+        <br>
+
+
+      </div>
     </div>
-</div>
-<h3> 👨‍💻 Create an Agent that learns to play Doom Deadly corridor</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-Ynjw0Vl3i4?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<br>
-<br>
-
-
-</div>
-</div>
-<!-- *********************************************************
+    <!-- *********************************************************
 *                       Part 4
 *********************************************************** -->
-<div class="step4">
-  <div class="container">
-<br>
-<h2>Part 4: Policy Gradients</h2>
-<hr/>
-<div class="row">
-<div class="col-lg-6">
-  <h3>📜 Course: </h3>
-  <p>  In this article you'll learn about Policy gradients and how to implement it with Tensorflow. </p>
-  <a href="https://medium.freecodecamp.org/an-introduction-to-policy-gradients-with-cartpole-and-doom-495b5ef2207f">
+    <div class="step4">
+      <div class="container">
+        <br>
+        <h2>Part 4: Policy Gradients</h2>
+        <hr />
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>📜 Course: </h3>
+            <p> In this article you'll learn about Policy gradients and how to implement it with Tensorflow. </p>
+            <a
+              href="https://medium.freecodecamp.org/an-introduction-to-policy-gradients-with-cartpole-and-doom-495b5ef2207f">
               <button type="button" class="btn btn-lg btn-success">Read the article
               </button>
-          </a>
-
-
-<br>
-    <br>
-    <h3> 👨‍💻 An Agent that learns to survive in an hostile environment in Doom </h3>
-    <img src="assets/img/doom_health.jpg" class="img-fluid" alt="Doom Health"/>
-    <br>
-    <br>
-    <h3> </h3>
-
-
-    <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/Policy%20Gradients">
-    <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
-    </button>
-  </a>
-
-
-    <br>
-</div>
-<div class="col-lg-6">
-  <h3>📹 Video: </h3>
-
-  <h3> 👨‍💻 Create an Agent that learns to play Doom deathmatch </h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wLTQRuizVyE?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br> <br>
-
-</div>
-</div>
-  <br  >
-</div>
-</div>
-
-
-<!-- *********************************************************
-*                      Part 5
-*********************************************************** -->
-<div class="step5 hiw-section">
-  <div class="container">
-<br>
-
-
-<h2>Part 5:  Advantage Actor Critic (A2C) and Asynchronous Advantage Actor Critic (A3C)</h2>
-<hr/>
-<div class="row">
-<div class="col-lg-6">
-  <h3>📜 Course: </h3>
- 
-  <p>  You'll learn the <b>Actor Critic's logic and how to implement an A2C agent that plays Sonic the Hedgehog with Tensorflow.</b> </p>
- <a href="https://medium.freecodecamp.org/an-intro-to-advantage-actor-critic-methods-lets-play-sonic-the-hedgehog-86d6240171d">
-              <button type="button" class="btn btn-success">Read the article
-              </button>
-          </a>
-<br>
-    <br>
-
-
-
-            <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/A2C%20with%20Sonic%20the%20Hedgehog">
-                <button type="button" class="btn btn-success">👨‍💻 Implementation
-                </button>
             </a>
 
-                <br>
 
-</div>
-<div class="col-lg-6">
-  <h3>📹 Video: </h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/GCfUdkCL7FQ?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-</div>
-<h3> 👨‍💻 Create an Agent that learns to play Sonic the Hedgehog</h3>
-<img src="assets/img/sonic.jpg" class="img-fluid" alt="Sonic the Hedgehog"/>
-<br>
-<br>
-<!--<a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Q%20Learning%20with%20FrozenLake.ipynb">
+            <br>
+            <br>
+            <h3> 👨‍💻 An Agent that learns to survive in an hostile environment in Doom </h3>
+            <img src="assets/img/doom_health.jpg" class="img-fluid" alt="Doom Health" />
+            <br>
+            <br>
+            <h3> </h3>
+
+
+            <a
+              href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/Policy%20Gradients">
+              <button type="button" class="btn btn-lg btn-info">👨‍💻 Implementation
+              </button>
+            </a>
+
+
+            <br>
+          </div>
+          <div class="col-lg-6">
+            <h3>📹 Video: </h3>
+
+            <h3> 👨‍💻 Create an Agent that learns to play Doom deathmatch </h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wLTQRuizVyE?showinfo=0" frameborder="0"
+              allow="autoplay; encrypted-media" allowfullscreen></iframe><br> <br>
+
+          </div>
+        </div>
+        <br>
+      </div>
+    </div>
+
+
+    <!-- *********************************************************
+*                      Part 5
+*********************************************************** -->
+    <div class="step5 hiw-section">
+      <div class="container">
+        <br>
+
+
+        <h2>Part 5: Advantage Actor Critic (A2C) and Asynchronous Advantage Actor Critic (A3C)</h2>
+        <hr />
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>📜 Course: </h3>
+
+            <p> You'll learn the <b>Actor Critic's logic and how to implement an A2C agent that plays Sonic the Hedgehog
+                with Tensorflow.</b> </p>
+            <a
+              href="https://medium.freecodecamp.org/an-intro-to-advantage-actor-critic-methods-lets-play-sonic-the-hedgehog-86d6240171d">
+              <button type="button" class="btn btn-success">Read the article
+              </button>
+            </a>
+            <br>
+            <br>
+
+
+
+            <a
+              href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/A2C%20with%20Sonic%20the%20Hedgehog">
+              <button type="button" class="btn btn-success">👨‍💻 Implementation
+              </button>
+            </a>
+
+            <br>
+
+          </div>
+          <div class="col-lg-6">
+            <h3>📹 Video: </h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GCfUdkCL7FQ?showinfo=0" frameborder="0"
+              allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+        <h3> 👨‍💻 Create an Agent that learns to play Sonic the Hedgehog</h3>
+        <img src="assets/img/sonic.jpg" class="img-fluid" alt="Sonic the Hedgehog" />
+        <br>
+        <br>
+        <!--<a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/Q%20Learning%20with%20FrozenLake.ipynb">
       <button type="button" class="btn btn-success">👨‍💻 Read the notebook
       </button>
   </a>-->
 
-    <h3> 📚 More resources:  </h3>
-    <ul>
-      <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 13: Policy Gradient Methods </a> </li>
-    </ul>
+        <h3> 📚 More resources: </h3>
+        <ul>
+          <li> <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">Free book: Reinforcement Learning: An
+              Introduction, Richard S. Sutton and Andrew G. Barto, Chapter 13: Policy Gradient Methods </a> </li>
+        </ul>
         <br>
 
-</div>
-</div>
+      </div>
+    </div>
 
-<!-- *********************************************************
+    <!-- *********************************************************
 *                      Part 6
 *********************************************************** -->
-<div class="step6">
-  <div class="container">
-<br>
-<h2>Part 6: Proximal Policy Gradients in A2C style</h2>
-<hr/>
-<div class="row">
-<div class="col-lg-6">
-  <h3>📜 Course: </h3>
+    <div class="step6">
+      <div class="container">
+        <br>
+        <h2>Part 6: Proximal Policy Gradients in A2C style</h2>
+        <hr />
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>📜 Course: </h3>
 
-  <p>  You'll learn <b>PPO how to implement it with Tensorflow.</b> </p>
-<a href="https://towardsdatascience.com/proximal-policy-optimization-ppo-with-sonic-the-hedgehog-2-and-3-c9c21dbed5e">
+            <p> You'll learn <b>PPO how to implement it with Tensorflow.</b> </p>
+            <a
+              href="https://towardsdatascience.com/proximal-policy-optimization-ppo-with-sonic-the-hedgehog-2-and-3-c9c21dbed5e">
               <button type="button" class="btn btn-success">Read the article
               </button>
-          </a>
-<br>
-    <br>
+            </a>
+            <br>
+            <br>
 
 
 
-           <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/PPO%20with%20Sonic%20the%20Hedgehog">
-                <button type="button" class="btn btn-success">👨‍💻 Implementation
-                </button>
+            <a
+              href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/PPO%20with%20Sonic%20the%20Hedgehog">
+              <button type="button" class="btn btn-success">👨‍💻 Implementation
+              </button>
             </a>
 
-                <br>  <br>
-<img src="https://cdn-images-1.medium.com/max/2000/0*dPLcYnrzTMcfjvpU.jpg" class="img-fluid" alt="Sonic the Hedgehog 3"/>  <br>  <br>
-</div>
+            <br> <br>
+            <img src="https://cdn-images-1.medium.com/max/2000/0*dPLcYnrzTMcfjvpU.jpg" class="img-fluid"
+              alt="Sonic the Hedgehog 3" /> <br> <br>
+          </div>
 
 
-</div>
-</div>
-</div>
-<!-- *********************************************************
+        </div>
+      </div>
+    </div>
+    <!-- *********************************************************
 *                      Part 8
 *********************************************************** -->
-<div class="step7 hiw-section">
-  <div class="container">
-    <br>
-    <h2>Part 7: Curiosity Driven Learning </h2>
-    <h3> 📅 September </h3>
-    <h3> TBA </h3>
-<br>
-</div>
-</div>
-</section>
-<!-- *********************************************************
+    <div class="step7 hiw-section">
+      <div class="container">
+        <br>
+        <h2>Part 7: Curiosity Driven Learning </h2>
+        <h3> 📅 September </h3>
+        <h3> TBA </h3>
+        <br>
+      </div>
+    </div>
+  </section>
+  <!-- *********************************************************
 *                      How to help section
 *********************************************************** -->
-<section class="container-fluid  center wow fadeInRight" data-wow-duration="2s" id="hth">
+  <section class="container-fluid  center wow fadeInRight" data-wow-duration="2s" id="hth">
     <br>
     <h2>How to help?</h2>
     <br>
@@ -515,25 +556,26 @@
       <div class="col-lg-4">
         <h2> 👏 and 👍 </h2>
         <h3> Clap our articles and like our videos a lot </h3>
-        <p> Clapping in Medium means that you really like our articles. And <b>the more claps we have, the more our article is shared</b> </p>
+        <p> Clapping in Medium means that you really like our articles. And <b>the more claps we have, the more our
+            article is shared</b> </p>
         <p> Liking our videos help them to <b>be much more visible to the deep learning community</b></p>
       </div>
-       <div class="col-lg-4">
-        <h2>  <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i>  <i class="fab fa-reddit"></i></h2>
+      <div class="col-lg-4">
+        <h2> <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i> <i class="fab fa-reddit"></i></h2>
         <h3> Share and speak about our articles and videos </h3>
         <p> By sharing our articles and videos you help us <b> to spread the word. </b> </p>
       </div>
-       <div class="col-lg-4">
-        <h2>  👨‍💻 </h2>
+      <div class="col-lg-4">
+        <h2> 👨‍💻 </h2>
         <h3> Publish your own implementations.</h3>
         <p> Show us what you've learned! </p>
       </div>
 
 
-    </section>
+  </section>
 
 
-<!-- *********************************************************
+  <!-- *********************************************************
 *                       Featured in
 *********************************************************** 
 <section class="container-fluid  hiw-section center fadeInRight" id="featured">
@@ -559,10 +601,10 @@
 
     
 </section> -->
-<!-- *********************************************************
+  <!-- *********************************************************
 *                       Keep in Touch section
 *********************************************************** -->
-<section class="container-fluid hiw-section center fadeInRight" data-wow-duration="2s" id="kit">
+  <section class="container-fluid hiw-section center fadeInRight" data-wow-duration="2s" id="kit">
     <br>
     <h2> Keep in touch! </h2>
     <br>
@@ -570,80 +612,85 @@
     <ul class="social list-inline">
 
 
-       <li class="social-twitter"><a href="https://twitter.com/ThomasSimonini"><i class="fa fa-twitter"></i></a></li>
+      <li class="social-twitter"><a href="https://twitter.com/ThomasSimonini"><i class="fa fa-twitter"></i></a></li>
 
-           <li class="social-email"><a href="mailto:hello@simoninithomas.com"><i
-            class="fa fa-envelope"></i></a></li>
+      <li class="social-email"><a href="mailto:hello@simoninithomas.com"><i class="fa fa-envelope"></i></a></li>
 
-                <li class="social-github"><a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course"><i
-                    class="fa fa-github"></i></a></li>
+      <li class="social-github"><a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course"><i
+            class="fa fa-github"></i></a></li>
 
-                </ul>
-
+    </ul>
 
 
 
-                <br>
-                <br>
-            </section>
+
+    <br>
+    <br>
+  </section>
 
 
 
-            <footer class="container-fluid text-center">
-                <br>
-                <div class="footer row">
-                    <div class="col-lg-6">
-                        <ul>
-                            <li>
-                                <a href="https://www.simoninithomas.com" >About</a>
-                            </li>
-                            <li>
-                                <a href="mailto:hello@simoninithomas.com">Contact</a>
-                            </li>
-                            <li>
-                              <a href="https://termsfeed.com/terms-conditions/33df856ba034ec58ea2b768e7eb7178a"> Terms and conditions </a>
-                              </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6">
-                        <ul>
-                            <!--<li> <a href="https://youtube.com/"> See us on   <i class="fa fa-youtube fa-2x"></i></a>
+  <footer class="container-fluid text-center">
+    <br>
+    <div class="footer row">
+      <div class="col-lg-6">
+        <ul>
+          <li>
+            <a href="https://www.simoninithomas.com">About</a>
+          </li>
+          <li>
+            <a href="mailto:hello@simoninithomas.com">Contact</a>
+          </li>
+          <li>
+            <a href="https://termsfeed.com/terms-conditions/33df856ba034ec58ea2b768e7eb7178a"> Terms and conditions </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <ul>
+          <!--<li> <a href="https://youtube.com/"> See us on   <i class="fa fa-youtube fa-2x"></i></a>
 
                            </li>-->
-                       <!--  <li> <a href="https://youtube.com/"> See us on <i
+          <!--  <li> <a href="https://youtube.com/"> See us on <i
                          class="fa fa-twitch"></i> </a>
              </li>
             <li>
                  <a href="https://facebook.com/">Like our page <i
                          class="fa fa-facebook"></i> </a>
                      </li>-->
-                     <li>
-                       <a href="https://twitter.com/ThomasSimonini">Follow me on <i
-                           class="fa fa-twitter fa-2x"></i></a>
-                       </li>
+          <li>
+            <a href="https://twitter.com/ThomasSimonini">Follow me on <i class="fa fa-twitter fa-2x"></i></a>
+          </li>
 
-                           <!--<li>
+          <!--<li>
                                <a href="https://producthunt.com/">See us on <i
                                    class="fa fa-product-hunt fa-2x"></i></a>
                                </li>-->
-                           </ul>
+        </ul>
 
 
-                       </div>
-                   </div>
+      </div>
+    </div>
 
-                   <p> 2018, <a href="http://www.simoninithomas.com">SIMONINI Thomas </a></p>
-
-
-               </footer>
-
-               <!-- JS -->
-               <!-- jQuery first, then Tether, then Bootstrap JS. -->
-               <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-               <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-               <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <p> 2018, <a href="http://www.simoninithomas.com">SIMONINI Thomas </a></p>
 
 
+  </footer>
 
-           </body>
-           </html>
+  <!-- JS -->
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+    integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+    integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+    integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
