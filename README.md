@@ -5,7 +5,6 @@
 <p>  Deep Reinforcement Learning Course is a free series of blog posts and videos 🆕 about Deep Reinforcement Learning, where we'll <b>learn the main algorithms, and how to implement them with Tensorflow.</b>
 
 📜The articles explain the concept from the big picture to the mathematical details behind it.
-
 📹 The videos explain how to create the agent with Tensorflow </b></p>
 
 # <a href="https://simoninithomas.github.io/Deep_reinforcement_learning_Course/">Syllabus</a><br>
@@ -43,9 +42,9 @@
 
 ## Any questions 👨‍💻
 <p> If you have any questions, feel free to ask me: </p>
-<p> 📧: <a href="mailto:hello@simoninithomas.com">hello@simoninithomas.com</a>  </p>
+<p> 📧: <a href="mailto:simonini.thomas.pro@gmail.com">simonini.thomas.pro@gmail.com</a>  </p>
 <p> Github: https://github.com/simoninithomas/Deep_reinforcement_learning_Course </p>
-<p> 🌐 : https://simoninithomas.github.io/Deep_reinforcement_learning_Course/ </p>
+<p> 🌐 : https://www.simoninithomas.com/deep-rl-course </p>
 <p> Twitter: <a href="https://twitter.com/ThomasSimonini">@ThomasSimonini</a> </p>
 <p> Don't forget to <b> follow me on <a href="https://twitter.com/ThomasSimonini">twitter</a>, <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course">github</a> and <a href="https://medium.com/@thomassimonini">Medium</a> to be alerted of the new articles that I publish </b></p>
 
