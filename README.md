@@ -1,6 +1,6 @@
-# [Deep Reinforcement Learning Course](https://simoninithomas.github.io/Deep_reinforcement_learning_Course/)
-# ⚠️ I'm currently updating the implementations (January and February (some delay due to job interviews)) with Tensorflow and PyTorch.
-<img src="https://raw.githubusercontent.com/simoninithomas/Deep_reinforcement_learning_Course/master/docs/assets/img/DRLC%20Environments.png" alt="Deep Reinforcement Course with Tensorflow" style="width: 500px;"/>
+# [Deep Reinforcement Learning Course](http://www.simoninithomas.com/deep-rl-course)
+# ⚠️ The new version of Deep Reinforcement Learning Course starts on October the 2nd 2020.
+<img src="http://www.simoninithomas.com/deep-rl-course/assets/img/environments.jpg" alt="Deep Reinforcement Course with Tensorflow and PyTorcch" style="width: 500px;"/>
 
 <p>  Deep Reinforcement Learning Course is a free series of blog posts and videos 🆕 about Deep Reinforcement Learning, where we'll <b>learn the main algorithms, and how to implement them with Tensorflow.</b>
 
