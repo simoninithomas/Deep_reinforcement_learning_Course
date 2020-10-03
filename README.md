@@ -1,5 +1,5 @@
-# [Deep Reinforcement Learning Course](http://www.simoninithomas.com/deep-rl-course)
-# ⚠️ The new version of Deep Reinforcement Learning Course starts on October the 2nd 2020.
+# [Deep Reinforcement Learning Course](https://simoninithomas.github.io/deep-rl-course/)
+# ⚠️ The new version of Deep Reinforcement Learning Course starts on October the 2nd 2020. [➡️ More info here ⬅️](https://medium.com/deep-reinforcement-learning-course/launching-deep-reinforcement-learning-course-v2-0-38fa3c24bcbc)
 <img src="http://www.simoninithomas.com/deep-rl-course/assets/img/environments.jpg" alt="Deep Reinforcement Course with Tensorflow and PyTorcch" style="width: 500px;"/>
 
 <p>  Deep Reinforcement Learning Course is a free series of blog posts and videos 🆕 about Deep Reinforcement Learning, where we'll <b>learn the main algorithms, and how to implement them with Tensorflow.</b>
@@ -44,7 +44,7 @@
 <p> If you have any questions, feel free to ask me: </p>
 <p> 📧: <a href="mailto:simonini.thomas.pro@gmail.com">simonini.thomas.pro@gmail.com</a>  </p>
 <p> Github: https://github.com/simoninithomas/Deep_reinforcement_learning_Course </p>
-<p> 🌐 : https://www.simoninithomas.com/deep-rl-course </p>
+<p> 🌐 : https://simoninithomas.github.io/deep-rl-course/ </p>
 <p> Twitter: <a href="https://twitter.com/ThomasSimonini">@ThomasSimonini</a> </p>
 <p> Don't forget to <b> follow me on <a href="https://twitter.com/ThomasSimonini">twitter</a>, <a href="https://github.com/simoninithomas/Deep_reinforcement_learning_Course">github</a> and <a href="https://medium.com/@thomassimonini">Medium</a> to be alerted of the new articles that I publish </b></p>
 
