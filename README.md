@@ -1,14 +1,18 @@
 # [Deep Reinforcement Learning Course](https://simoninithomas.github.io/deep-rl-course/)
 # ⚠️ The new version of Deep Reinforcement Learning Course starts on October the 2nd 2020. [➡️ More info here ⬅️](https://medium.com/deep-reinforcement-learning-course/launching-deep-reinforcement-learning-course-v2-0-38fa3c24bcbc)
-<img src="http://www.simoninithomas.com/deep-rl-course/assets/img/environments.jpg" alt="Deep Reinforcement Course with Tensorflow and PyTorcch" style="width: 500px;"/>
+<img src="http://www.simoninithomas.com/deep-rl-course/assets/img/environments.jpg" alt="Deep Reinforcement Course with Tensorflow and PyTorch" style="width: 500px;"/>
 
 # <a href="https://simoninithomas.github.io/Deep_reinforcement_learning_Course/">Syllabus</a><br>
-## Part 1: Introduction to Deeep Reinforcement Learning 
+## Chapter 1: Introduction to Deeep Reinforcement Learning 
 ### 📜 [ARTICLE Introduction to Deep Reinforcement Learning](https://medium.com/@thomassimonini/an-introduction-to-deep-reinforcement-learning-17a565999c0c?source=friends_link&sk=1b1121ae5d9814a09ca38b47abc7dc61) <br><br>
 ### 📹 [VIDEO Introduction to Deep Reinforcement Learning](https://youtu.be/q0BiUn5LiBc)
 
-## Part 2: Q-learning with FrozenLake <br>
-### 📜 [ARTICLE](https://medium.freecodecamp.org/diving-deeper-into-reinforcement-learning-with-q-learning-c18d0db58efe) // [FROZENLAKE IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/FrozenLake/Q%20Learning%20with%20FrozenLake.ipynb)<br>
+## Chapter 2: Q-learning with Taxi-v3 🚕 <br>
+### 📜 [ARTICLE: Q-Learning, let’s create an autonomous Taxi 🚖 (Part 1/2)](https://medium.com/@thomassimonini/q-learning-lets-create-an-autonomous-taxi-part-1-2-3e8f5e764358) 
+### [VIDEO Q-Learning, let’s create an autonomous Taxi 🚖 (Part 1/2)](https://youtu.be/230bR2DrbdE)
+### 📹 [ARTICLE: Q-Learning, let’s create an autonomous Taxi 🚖 (Part 2/2)] 📅Friday📅
+### 📹 [VIDEO: Q-Learning, let’s create an autonomous Taxi 🚖 (Part 2/2)] 📅Friday📅
+### [FROZENLAKE IMPLEMENTATION](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/blob/master/Q%20learning/FrozenLake/Q%20Learning%20with%20FrozenLake.ipynb)<br>
 ### 📹 [Implementing a Q-learning agent that plays Taxi-v2 🚕](https://youtu.be/q2ZOEFAaaI0) <br><br>
 
 ## Part 3: Deep Q-learning with Doom <br>
