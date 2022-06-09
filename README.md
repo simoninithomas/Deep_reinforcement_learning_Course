@@ -1,6 +1,9 @@
-# [Deep Reinforcement Learning Course](https://simoninithomas.github.io/deep-rl-course/)
-We **launched a new free Deep Reinforcement Learning Course with Hugging Face 🤗**
-**👉 Register here https://forms.gle/oXAeRgLW4qZvUZeu9**
+# [Deep Reinforcement Learning Course](https://github.com/huggingface/deep-rl-class)
+We **[launched a new free Deep Reinforcement Learning Course with Hugging Face 🤗](https://github.com/huggingface/deep-rl-class)**
+
+
+**👉 Register here http://eepurl.com/h1pElX**
+
 
 In this free course, you will:
 - 📖 Study **Deep Reinforcement Learning in theory and practice.**
