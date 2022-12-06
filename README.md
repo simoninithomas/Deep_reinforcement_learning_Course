@@ -3,7 +3,9 @@ We **[launched a new free Deep Reinforcement Learning Course with Hugging Face �
 
 
 **👉 Register here** http://eepurl.com/h1pElX
+
 **👉 The course**: https://huggingface.co/deep-rl-course/unit0/introduction
+
 📚 The syllabus: https://simoninithomas.github.io/deep-rl-course/
 
 In this updated free course, you will:
